@@ -1,0 +1,5 @@
+Thank you for buying Quake Touch.
+Please consider leaving a comment on Amazon if you like this app.
+
+This port uses GPL code from Quake GL, and from the excellent FTEQW, Darkplaces and Winquake.
+Thank you to all who have contributed to those projects.

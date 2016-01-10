@@ -1,0 +1,269 @@
+.TH chocolate\-heretic 6
+.SH NAME
+chocolate\-heretic \- historically compatible Heretic engine
+.SH SYNOPSIS
+.B chocolate\-heretic
+[\fIOPTIONS\fR]
+.SH DESCRIPTION
+.PP
+Chocolate Heretic is a port of Raven Software's 1994 game "Heretic" that
+aims to behave as similar to the original DOS version of Heretic as
+possible.
+.br
+.SH GENERAL OPTIONS
+.TP
+\fB\-cdrom\fR
+[windows only] Save configuration data and savegames in c:\\heretic.cd, allowing play from CD. 
+.TP
+\fB\-config <file>\fR
+Load main configuration from the specified file, instead of the default. 
+.TP
+\fB\-dumpsubstconfig <output filename>\fR
+Read all MIDI files from loaded WAD files, dump an example substitution music config file to the specified filename and quit. 
+.TP
+\fB\-episode <n>\fR
+Start playing on episode n (1\-4) 
+.TP
+\fB\-extraconfig <file>\fR
+Load additional configuration from the specified file, instead of the default. 
+.TP
+\fB\-file <files>\fR
+Load the specified PWAD files. 
+.TP
+\fB\-iwad <file>\fR
+Specify an IWAD file to use. 
+.TP
+\fB\-loadgame <s>\fR
+Load the game in savegame slot s. 
+.TP
+\fB\-mb <mb>\fR
+Specify the heap size, in MiB (default 16). 
+.TP
+\fB\-mmap\fR
+Use the OS's virtual memory subsystem to map WAD files directly into memory. 
+.TP
+\fB\-noartiskip\fR
+Allow artifacts to be used when the run key is held down. 
+.TP
+\fB\-noblit\fR
+Disable blitting the screen. 
+.TP
+\fB\-nomonsters\fR
+Disable monsters. 
+.TP
+\fB\-nomusic\fR
+Disable music. 
+.TP
+\fB\-nosfx\fR
+Disable sound effects. 
+.TP
+\fB\-nosound\fR
+Disable all sound output. 
+.TP
+\fB\-ravpic\fR
+Take screenshots when F1 is pressed. 
+.TP
+\fB\-respawn\fR
+Monsters respawn after being killed. 
+.TP
+\fB\-servername <name>\fR
+When starting a network server, specify a name for the server. 
+.TP
+\fB\-skill <skill>\fR
+Set the game skill, 1\-5 (1: easiest, 5: hardest).  A skill of 0 disables all monsters. 
+.TP
+\fB\-warp <x> <y>\fR
+Start a game immediately, warping to level ExMy. 
+.TP
+\fB\-zonescan\fR
+Zone memory debugging flag. If set, each time memory is freed, the zone heap is scanned to look for remaining pointers to the freed block. 
+.TP
+\fB\-zonezero\fR
+Zone memory debugging flag. If set, memory is zeroed after it is freed to deliberately break any code that attempts to use it after free. 
+
+.SH COMPATIBILITY
+.TP
+\fB\-setmem <version>\fR
+Specify DOS version to emulate for NULL pointer dereference emulation.  Supported versions are: dos622, dos71, dosbox. The default is to emulate DOS 7.1 (Windows 98). 
+
+.SH DEMO OPTIONS
+.TP
+\fB\-playdemo <demo>\fR
+Play back the demo named demo.lmp. 
+.TP
+\fB\-record <x>\fR
+Record a demo named x.lmp. 
+.TP
+\fB\-recordfrom <savenum> <demofile>\fR
+Record a demo, loading from the given filename. Equivalent to \-loadgame <savenum> \-record <demofile>. 
+.TP
+\fB\-timedemo <demo>\fR
+Play back the demo named demo.lmp, determining the framerate of the screen. 
+
+.SH DISPLAY OPTIONS
+.TP
+\fB\-1\fR
+Don't scale up the screen. 
+.TP
+\fB\-2\fR
+Double up the screen to 2x its normal size. 
+.TP
+\fB\-3\fR
+Double up the screen to 3x its normal size. 
+.TP
+\fB\-8in32\fR
+Set the color depth of the screen to 32 bits per pixel. 
+.TP
+\fB\-bpp <bpp>\fR
+Specify the color depth of the screen, in bits per pixel. 
+.TP
+\fB\-fullscreen\fR
+Run in fullscreen mode. 
+.TP
+\fB\-geometry <WxY>[wf]\fR
+Specify the dimensions of the window or fullscreen mode.  An optional letter of w or f appended to the dimensions selects windowed or fullscreen mode. 
+.TP
+\fB\-grabmouse\fR
+Grab the mouse when running in windowed mode. 
+.TP
+\fB\-height <y>\fR
+Specify the screen height, in pixels. 
+.TP
+\fB\-nograbmouse\fR
+Don't grab the mouse when running in windowed mode. 
+.TP
+\fB\-nomouse\fR
+Disable the mouse. 
+.TP
+\fB\-nonovert\fR
+Enable vertical mouse movement. 
+.TP
+\fB\-novert\fR
+Disable vertical mouse movement. 
+.TP
+\fB\-width <x>\fR
+Specify the screen width, in pixels. 
+.TP
+\fB\-window\fR
+Run in a window. 
+
+.SH NETWORKING OPTIONS
+.TP
+\fB\-autojoin\fR
+Automatically search the local LAN for a multiplayer server and join it. 
+.TP
+\fB\-connect <address>\fR
+Connect to a multiplayer server running on the given address. 
+.TP
+\fB\-deathmatch\fR
+Start a deathmatch game. 
+.TP
+\fB\-dup <n>\fR
+Reduce the resolution of the game by a factor of n, reducing the amount of network bandwidth needed. 
+.TP
+\fB\-extratics <n>\fR
+Send n extra tics in every packet as insurance against dropped packets. 
+.TP
+\fB\-ignoreversion\fR
+When running a netgame server, ignore version mismatches between the server and the client. Using this option may cause game desyncs to occur, or differences in protocol may mean the netgame will simply not function at all. 
+.TP
+\fB\-newsync\fR
+Use new network client sync code rather than the classic sync code. This is currently disabled by default because it has some bugs. 
+.TP
+\fB\-nodes <n>\fR
+Autostart the netgame when n nodes (clients) have joined the server. 
+.TP
+\fB\-port <n>\fR
+Use the specified UDP port for communications, instead of the default (2342). 
+.TP
+\fB\-privateserver\fR
+When running a server, don't register with the global master server. Implies \-server. 
+.TP
+\fB\-server\fR
+Start a multiplayer server, listening for connections. 
+.TP
+\fB\-solo\-net\fR
+Start the game playing as though in a netgame with a single player.  This can also be used to play back single player netgame demos. 
+.TP
+\fB\-timer <n>\fR
+For multiplayer games: exit each level after n minutes. 
+
+.SH DEHACKED AND WAD MERGING
+.TP
+\fB\-aa <files>\fR
+Equivalent to "\-af <files> \-as <files>". 
+.TP
+\fB\-af <files>\fR
+Simulates the behavior of NWT's \-af option, merging flats into the main IWAD directory.  Multiple files may be specified. 
+.TP
+\fB\-as <files>\fR
+Simulates the behavior of NWT's \-as option, merging sprites into the main IWAD directory.  Multiple files may be specified. 
+.TP
+\fB\-deh <files>\fR
+Load the given dehacked patch(es) 
+.TP
+\fB\-hhever <version>\fR
+Select the Heretic version number that was used to generate the HHE patch to be loaded.  Patches for each of the Vanilla Heretic versions (1.0, 1.2, 1.3) can be loaded, but the correct version number must be specified. 
+.TP
+\fB\-merge <files>\fR
+Simulates the behavior of deutex's \-merge option, merging a PWAD into the main IWAD.  Multiple files may be specified. 
+.TP
+\fB\-nocheats\fR
+Ignore cheats in dehacked files. 
+.TP
+\fB\-nwtmerge <files>\fR
+Simulates the behavior of NWT's \-merge option.  Multiple files may be specified.
+.SH ENVIRONMENT
+This section describes environment variables that control Chocolate Heretic's
+behavior.
+.TP
+\fBDOOMWADDIR\fR, \fBDOOMWADPATH\fR
+These environment variables provide paths to search for Doom .WAD files when
+looking for a game IWAD file or a PWAD file specified with the `\-file' option.
+\fBDOOMWADDIR\fR specifies a single path in which to look for WAD files,
+while \fBDOOMWWADPATH\fR specifies a colon-separated list of paths to search.
+.TP
+\fBPCSOUND_DRIVER\fR
+When running in PC speaker sound effect mode, this environment variable
+specifies a PC speaker driver to use for sound effect playback.  Valid
+options are "Linux" for the Linux console mode driver, "BSD" for the
+NetBSD/OpenBSD PC speaker driver, and "SDL" for SDL-based emulated PC speaker
+playback (using the digital output).
+.TP
+\fBOPL_DRIVER\fR
+When using OPL MIDI playback, this environment variable specifies an
+OPL backend driver to use.  Valid options are "SDL" for an SDL-based
+software emulated OPL chip, "Linux" for the Linux hardware OPL driver,
+and "OpenBSD" for the OpenBSD/NetBSD hardware OPL driver.
+
+Generally speaking, a real hardware OPL chip sounds better than software
+emulation; however, modern machines do not often include one. If
+present, it may still require extra work to set up and elevated
+security privileges to access.
+
+.SH FILES
+.TP
+\fB$HOME/.chocolate-doom/heretic.cfg\fR
+The main configuration file for Chocolate Heretic.  See \fBheretic.cfg\fR(5).
+.TP
+\fB$HOME/.chocolate-doom/chocolate-heretic.cfg\fR
+Extra configuration values that are specific to Chocolate Heretic and not
+present in Vanilla Heretic. See \fBchocolate-heretic.cfg\fR(5).
+.SH SEE ALSO
+\fBchocolate-doom\fR(6),
+\fBchocolate-hexen\fR(6),
+\fBchocolate-server\fR(6),
+\fBchocolate-setup\fR(6)
+.SH AUTHOR
+Chocolate Heretic is part of the Chocolate Doom project, written and
+maintained by Simon Howard. It is based on the Heretic source code,
+released by Raven Software.
+.SH COPYRIGHT
+Copyright \(co id Software Inc.
+Copyright \(co Raven Software Inc.
+Copyright \(co 2005-2013 Simon Howard.
+.br
+This is free software.  You may redistribute copies of it under the terms of
+the GNU General Public License <http://www.gnu.org/licenses/gpl.html>.
+There is NO WARRANTY, to the extent permitted by law.
+

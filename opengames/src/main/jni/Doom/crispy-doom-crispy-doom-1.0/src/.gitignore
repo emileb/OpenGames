@@ -1,0 +1,13 @@
+Makefile
+Makefile.in
+.deps
+*.rc
+chocolate-doom
+chocolate-heretic
+chocolate-hexen
+chocolate-server
+chocolate-setup
+*.exe
+*.desktop
+tags
+TAGS

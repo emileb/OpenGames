@@ -1,0 +1,7 @@
+Thank you for downloading ECWolf.
+
+Please copy your game data files (*.WL6, *.SOD, etc) to /sdcard/Beloko/Wolf3d/FULL/.
+
+You can change the folder location in the OPTIONS tab.
+
+If you like this app please consider supporting Beloko Games on Google Play!

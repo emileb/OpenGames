@@ -1,0 +1,65 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           24KYK001
+LANG_ENGLISH        "This should be easy.  Just plant some charges, watch the fireworks, and come home.  What can go wrong?"
+LANG_GERMAN         "Das sollte leicht werden. Platzier ein paar Ladungen, genieß das Feuerwerk und komm zurück. Was kann da schief gehen?"
+
+REFERENCE           24JAK001
+NOTES               "(to himself, shrugging at how easy it was to find it)"
+LANG_ENGLISH        "Hunh, there's some of the weapons."
+LANG_GERMAN         "Hmm, da sind ein paar der Waffen."
+
+REFERENCE           24JAK002
+NOTES               "(starstruck and scared at the same time)"
+LANG_ENGLISH        "Boba Fett!"
+LANG_GERMAN         "#same"
+
+REFERENCE           24BOF001
+LANG_ENGLISH        "This doesn't concern you, Jedi.  Just walk away."
+LANG_GERMAN         "Das hier geht dich nichts an, Jedi. Geh einfach weg."
+
+REFERENCE           24JAK003
+LANG_ENGLISH        "Look, I can't do that..."
+LANG_GERMAN         "Das kann ich leider nicht ..."
+
+REFERENCE           24JAK004
+NOTES               "(to himself, mockingly)"
+LANG_ENGLISH        "What can go wrong?"
+LANG_GERMAN         "Was kann da schief gehen?"
+
+REFERENCE           24JAK005
+NOTES               "(to himself, during combat)"
+LANG_ENGLISH        "Just my luck.  Boba Fett."
+LANG_GERMAN         "Na, so ein Glück. Boba Fett."
+
+REFERENCE           24JAK006
+NOTES               "(to himself, during combat)"
+LANG_ENGLISH        "How many gadgets does he have in that suit?"
+LANG_GERMAN         "Wie viele Spielereien hat er in dem Ding?"
+
+REFERENCE           24JAK007
+NOTES               "(yelling to Boba Fett during combat)"
+LANG_ENGLISH        "Can't we talk about this?!"
+LANG_GERMAN         "Können wir nicht einfach darüber reden?"
+
+REFERENCE           24BOF002
+LANG_ENGLISH        " "
+LANG_GERMAN         " "
+
+
+ENDMARKER
+
+

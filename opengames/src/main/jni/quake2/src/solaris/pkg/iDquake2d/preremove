@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# @(#)postinstall	$Id: preremove 119 2002-09-25 13:22:56Z bburns $
+#
+# postinstall script for quake2
+
+quake2_dir=$BASEDIR
+
+exit 0
+

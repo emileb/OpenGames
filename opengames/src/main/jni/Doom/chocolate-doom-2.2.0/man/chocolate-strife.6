@@ -1,0 +1,357 @@
+.TH chocolate\-strife 6
+.SH NAME
+chocolate\-strife \- historically compatible strife engine
+.SH SYNOPSIS
+.B chocolate\-strife
+[\fIOPTIONS\fR]
+.SH DESCRIPTION
+.PP
+Chocolate Strife is an accurate and complete recreation of Rogue
+Entertainment's "Strife: Quest for the Sigil". It was created through
+more than two years of reverse engineering effort with the blessings
+of the original programmers of the game (see the section HISTORY below).
+
+.SH GENERAL OPTIONS
+.TP
+\fB\-cdrom\fR
+[windows only] Save configuration data and savegames in c:\\strife.cd, allowing play from CD. 
+.TP
+\fB\-config <file>\fR
+Load main configuration from the specified file, instead of the default. 
+.TP
+\fB\-devparm\fR
+Developer mode. Implies \-nograph. 
+.TP
+\fB\-dumpsubstconfig <output filename>\fR
+Read all MIDI files from loaded WAD files, dump an example substitution music config file to the specified filename and quit. 
+.TP
+\fB\-extraconfig <file>\fR
+Load additional configuration from the specified file, instead of the default. 
+.TP
+\fB\-fast\fR
+Monsters move faster. 
+.TP
+\fB\-file <files>\fR
+Load the specified PWAD files. 
+.TP
+\fB\-flip\fR
+Flip player gun sprites (broken). 
+.TP
+\fB\-iwad <file>\fR
+Specify an IWAD file to use. 
+.TP
+\fB\-loadgame <s>\fR
+Load the game in slot s. 
+.TP
+\fB\-mb <mb>\fR
+Specify the heap size, in MiB (default 16). 
+.TP
+\fB\-mmap\fR
+Use the OS's virtual memory subsystem to map WAD files directly into memory. 
+.TP
+\fB\-noblit\fR
+Disable blitting the screen. 
+.TP
+\fB\-nodraw\fR
+Disable rendering the screen entirely. 
+.TP
+\fB\-nograph\fR
+Disable graphical introduction sequence 
+.TP
+\fB\-nomonsters\fR
+Disable monsters. 
+.TP
+\fB\-nomusic\fR
+Disable music. 
+.TP
+\fB\-nosfx\fR
+Disable sound effects. 
+.TP
+\fB\-nosound\fR
+Disable all sound output. 
+.TP
+\fB\-novoice\fR
+Disable voice dialog and show dialog as text instead, even if voices.wad can be found. 
+.TP
+\fB\-random\fR
+Items respawn at random locations 
+.TP
+\fB\-respawn\fR
+Respawn monsters after they are killed. 
+.TP
+\fB\-servername <name>\fR
+When starting a network server, specify a name for the server. 
+.TP
+\fB\-skill <skill>\fR
+Set the game skill, 1\-5 (1: easiest, 5: hardest).  A skill of 0 disables all monsters. 
+.TP
+\fB\-turbo <x>\fR
+Turbo mode.  The player's speed is multiplied by x%.  If unspecified, x defaults to 200.  Values are rounded up to 10 and down to 400. 
+.TP
+\fB\-warp x\fR
+Start a game immediately, warping to level x. 
+.TP
+\fB\-work\fR
+Set Rogue playtesting mode (godmode, noclip toggled by backspace) 
+.TP
+\fB\-zonescan\fR
+Zone memory debugging flag. If set, each time memory is freed, the zone heap is scanned to look for remaining pointers to the freed block. 
+.TP
+\fB\-zonezero\fR
+Zone memory debugging flag. If set, memory is zeroed after it is freed to deliberately break any code that attempts to use it after free. 
+
+.SH COMPATIBILITY
+.TP
+\fB\-donut <x> <y>\fR
+Use the specified magic values when emulating behavior caused by memory overruns from improperly constructed donuts. In Vanilla Strife this can differ depending on the operating system.  The default (if this option is not specified) is to emulate the behavior when running under Windows 98. 
+.TP
+\fB\-gameversion <version>\fR
+Emulate a specific version of Strife. Valid values are "1.2" and "1.31". 
+.TP
+\fB\-setmem <version>\fR
+Specify DOS version to emulate for NULL pointer dereference emulation.  Supported versions are: dos622, dos71, dosbox. The default is to emulate DOS 7.1 (Windows 98). 
+.TP
+\fB\-spechit <n>\fR
+Use the specified magic value when emulating spechit overruns. 
+
+.SH DEMO OPTIONS
+.TP
+\fB\-maxdemo <size>\fR
+Specify the demo buffer size (KiB) 
+.TP
+\fB\-playdemo <demo>\fR
+Play back the demo named demo.lmp. 
+.TP
+\fB\-record <x>\fR
+Record a demo named x.lmp. 
+.TP
+\fB\-solo\-net\fR
+Play back a demo recorded in a netgame with a single player. 
+.TP
+\fB\-timedemo <demo>\fR
+Play back the demo named demo.lmp, determining the framerate of the screen. 
+
+.SH DISPLAY OPTIONS
+.TP
+\fB\-1\fR
+Don't scale up the screen. 
+.TP
+\fB\-2\fR
+Double up the screen to 2x its normal size. 
+.TP
+\fB\-3\fR
+Double up the screen to 3x its normal size. 
+.TP
+\fB\-8in32\fR
+Set the color depth of the screen to 32 bits per pixel. 
+.TP
+\fB\-bpp <bpp>\fR
+Specify the color depth of the screen, in bits per pixel. 
+.TP
+\fB\-fullscreen\fR
+Run in fullscreen mode. 
+.TP
+\fB\-geometry <WxY>[wf]\fR
+Specify the dimensions of the window or fullscreen mode.  An optional letter of w or f appended to the dimensions selects windowed or fullscreen mode. 
+.TP
+\fB\-grabmouse\fR
+Grab the mouse when running in windowed mode. 
+.TP
+\fB\-height <y>\fR
+Specify the screen height, in pixels. 
+.TP
+\fB\-nograbmouse\fR
+Don't grab the mouse when running in windowed mode. 
+.TP
+\fB\-nomouse\fR
+Disable the mouse. 
+.TP
+\fB\-nonovert\fR
+Enable vertical mouse movement. 
+.TP
+\fB\-novert\fR
+Disable vertical mouse movement. 
+.TP
+\fB\-width <x>\fR
+Specify the screen width, in pixels. 
+.TP
+\fB\-window\fR
+Run in a window. 
+
+.SH NETWORKING OPTIONS
+.TP
+\fB\-altdeath\fR
+Start a deathmatch game.  Weapons do not stay in place and all items respawn after 30 seconds. 
+.TP
+\fB\-autojoin\fR
+Automatically search the local LAN for a multiplayer server and join it. 
+.TP
+\fB\-avg\fR
+Austin Virtual Gaming: end levels after 20 minutes. 
+.TP
+\fB\-connect <address>\fR
+Connect to a multiplayer server running on the given address. 
+.TP
+\fB\-dedicated\fR
+Start a dedicated server, routing packets but not participating in the game itself. 
+.TP
+\fB\-dup <n>\fR
+Reduce the resolution of the game by a factor of n, reducing the amount of network bandwidth needed. 
+.TP
+\fB\-extratics <n>\fR
+Send n extra tics in every packet as insurance against dropped packets. 
+.TP
+\fB\-ignoreversion\fR
+When running a netgame server, ignore version mismatches between the server and the client. Using this option may cause game desyncs to occur, or differences in protocol may mean the netgame will simply not function at all. 
+.TP
+\fB\-left\fR
+Run as the left screen in three screen mode. 
+.TP
+\fB\-localsearch\fR
+Search the local LAN for running servers. 
+.TP
+\fB\-newsync\fR
+Use new network client sync code rather than the classic sync code. This is currently disabled by default because it has some bugs. 
+.TP
+\fB\-nodes <n>\fR
+Autostart the netgame when n nodes (clients) have joined the server. 
+.TP
+\fB\-port <n>\fR
+Use the specified UDP port for communications, instead of the default (2342). 
+.TP
+\fB\-privateserver\fR
+When running a server, don't register with the global master server. Implies \-server. 
+.TP
+\fB\-query <address>\fR
+Query the status of the server running on the given IP address. 
+.TP
+\fB\-right\fR
+Run as the right screen in three screen mode. 
+.TP
+\fB\-search\fR
+Query the Internet master server for a global list of active servers. 
+.TP
+\fB\-server\fR
+Start a multiplayer server, listening for connections. 
+.TP
+\fB\-solo\-net\fR
+Start the game playing as though in a netgame with a single player.  This can also be used to play back single player netgame demos. 
+.TP
+\fB\-timer <n>\fR
+For multiplayer games: exit each level after n minutes. 
+
+.SH DEHACKED AND WAD MERGING
+.TP
+\fB\-aa <files>\fR
+Equivalent to "\-af <files> \-as <files>". 
+.TP
+\fB\-af <files>\fR
+Simulates the behavior of NWT's \-af option, merging flats into the main IWAD directory.  Multiple files may be specified. 
+.TP
+\fB\-as <files>\fR
+Simulates the behavior of NWT's \-as option, merging sprites into the main IWAD directory.  Multiple files may be specified. 
+.TP
+\fB\-deh <files>\fR
+Load the given dehacked patch(es) 
+.TP
+\fB\-merge <files>\fR
+Simulates the behavior of deutex's \-merge option, merging a PWAD into the main IWAD.  Multiple files may be specified. 
+.TP
+\fB\-nocheats\fR
+Ignore cheats in dehacked files. 
+.TP
+\fB\-nwtmerge <files>\fR
+Simulates the behavior of NWT's \-merge option.  Multiple files may be specified.
+
+.SH ENVIRONMENT
+This section describes environment variables that control Chocolate Strife's
+behavior.
+.TP
+\fBDOOMWADDIR\fR, \fBDOOMWADPATH\fR
+These environment variables provide paths to search for Doom .WAD files when
+looking for a game IWAD file or a PWAD file specified with the `\-file' option.
+\fBDOOMWADDIR\fR specifies a single path in which to look for WAD files,
+while \fBDOOMWWADPATH\fR specifies a colon-separated list of paths to search.
+.TP
+\fBPCSOUND_DRIVER\fR
+When running in PC speaker sound effect mode, this environment variable
+specifies a PC speaker driver to use for sound effect playback.  Valid
+options are "Linux" for the Linux console mode driver, "BSD" for the
+NetBSD/OpenBSD PC speaker driver, and "SDL" for SDL-based emulated PC speaker
+playback (using the digital output).
+.TP
+\fBOPL_DRIVER\fR
+When using OPL MIDI playback, this environment variable specifies an
+OPL backend driver to use.  Valid options are "SDL" for an SDL-based
+software emulated OPL chip, "Linux" for the Linux hardware OPL driver,
+and "OpenBSD" for the OpenBSD/NetBSD hardware OPL driver.
+
+Generally speaking, a real hardware OPL chip sounds better than software
+emulation; however, modern machines do not often include one. If
+present, it may still require extra work to set up and elevated
+security privileges to access.
+
+
+.SH FILES
+.TP
+\fB$HOME/.chocolate-doom/strife.cfg\fR
+The main configuration file for Chocolate Strife.  See \fBstrife.cfg\fR(5).
+.TP
+\fB$HOME/.chocolate-doom/chocolate-strife.cfg\fR
+Extra configuration values that are specific to Chocolate Strife and not
+present in Vanilla Strife.  See \fBchocolate-strife.cfg\fR(5).
+.SH SEE ALSO
+\fBchocolate-doom\fR(6),
+\fBchocolate-server\fR(6),
+\fBchocolate-setup\fR(6)
+
+.SH HISTORY
+The source code for Strife was lost, which means, unlike the code for all the
+other commercial DOOM-engine games, it cannot be released. The only access we
+have to the code is the binary executable file. Reverse engineering tools
+were employed to disassemble and decompile the executables, which were cross-
+referenced against the Linux DOOM and DOS Heretic sources and painstakingly
+combed over multiple times, instruction-by-instruction, to ensure that the
+resulting Chocolate-Doom-based executable is as close as possible to the
+original.
+
+.SH LEGALITY
+Reverse engineering is a protected activity so long as the original code is
+not used directly in the product. Due to the vast amount of information lost
+through the process of compilation, and the need to refactor large portions
+of code in order to eliminate non-portable idioms or to adapt them properly to
+Chocolate Doom's framework, the resulting code behaves the same, but is not
+the *same* code.
+
+In addition, James Monroe and John Carmack have both stated that they have no
+objections to the project. Because they are the original authors of the code,
+and neither Rogue nor their publisher, Velocity, Inc., exist any longer as
+legal entities, this is effectively legal permission.
+
+.SH BUGS
+Chocolate Strife is almost, but not entirely perfect, in recreating the
+behavior of Vanilla Strife.  Help us by reporting any discrepancies you
+might notice between this executable and the vanilla DOS program.
+
+However, do *not* report any glitch that you can replicate in the vanilla EXE
+as a bug. The point of Chocolate Strife, like Chocolate Doom before it, is to
+be as bug-compatible with the original game as possible. Also be aware that
+some glitches are impossible to compatibly recreate, and wherever this is the
+case, Chocolate Strife has erred on the side of not crashing the program,
+for example by initializing pointers to NULL rather than using them without
+setting a value first.
+
+.SH AUTHORS
+Chocolate Strife is part of the Chocolate Doom project. It was reverse
+engineered from the DOS versions of Strife by James Haley and Samuel
+Villarreal.
+Chocolate Doom was written and maintained by Simon Howard, and is based
+on the LinuxDoom source code released by Id Software.
+.SH COPYRIGHT
+Copyright \(co id Software Inc.
+Copyright \(co 2005-2013 Simon Howard, James Haley, Samuel Villarreal.
+.br
+This is free software.  You may redistribute copies of it under the terms of
+the GNU General Public License <http://www.gnu.org/licenses/gpl.html>.
+There is NO WARRANTY, to the extent permitted by law.
+

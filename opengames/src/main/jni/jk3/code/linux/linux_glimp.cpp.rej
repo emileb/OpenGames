@@ -1,0 +1,87 @@
+diff a/code/linux/linux_glimp.cpp b/code/linux/linux_glimp.cpp	(rejected hunks)
+@@ -25,14 +25,22 @@
+ #include "../renderer/tr_local.h"
+ #include "../client/client.h"
+ 
++#ifdef HAVE_GLES
++#include "EGL/egl.h"
++//#include <SDL/SDL.h>
++//#include "../es/eglport.h"
++#else
+ #include "linux_glw.h"
++#endif
+ #include "linux_local.h"
+ 
+-
++#ifndef HAVE_GLES
+ #include <GL/glx.h>
++#endif
+ 
+ #include <X11/keysym.h>
+ #include <X11/cursorfont.h>
++#include <X11/Xatom.h>
+ 
+ #ifdef USE_XF86DGA
+ #include <X11/extensions/xf86dga.h>
+@@ -103,13 +214,12 @@ static int mouse_accel_numerator;
+ static int mouse_accel_denominator;
+ static int mouse_threshold;   
+ 
+-// Whether the current hardware supports dynamic glows/flares.
+-extern bool g_bDynamicGlowSupported;
+-
+-// Hack variable for deciding which kind of texture rectangle thing to do (for some
+-// reason it acts different on radeon! It's against the spec!).
+-bool g_bTextureRectangleHack = false;
++// Whether the current hardware supports dynamic glows/flares.
++extern bool g_bDynamicGlowSupported;
+ 
++// Hack variable for deciding which kind of texture rectangle thing to do (for some
++// reason it acts different on radeon! It's against the spec!).
++bool g_bTextureRectangleHack = false;
+ 
+ 
+ static void		GLW_InitExtensions( void );
+@@ -621,9 +838,14 @@ int GLW_SetMode( const char *drivername, int mode, qboolean fullscreen )
+ 			0, visinfo->depth, InputOutput,
+ 			visinfo->visual, mask, &attr);
+ 	XMapWindow(dpy, win);
+-
+ 	if (vidmode_active)
+ 		XMoveWindow(dpy, win, 0, 0);
++		
++	if (fullscreen) {
++		Atom wmState = XInternAtom(dpy, "_NET_WM_STATE", False);
++		Atom wmFullscreen = XInternAtom(dpy, "_NET_WM_STATE_FULLSCREEN", False);
++		XChangeProperty(dpy, win, wmState, XA_ATOM, 32, PropModeReplace, (unsigned char *)&wmFullscreen, 1);	
++	}
+ 
+ 	#ifdef USE_XF86DGA
+ 	// Check for DGA
+@@ -1330,13 +1631,26 @@ void GLimp_Shutdown( void )
+ 	//WG_RestoreGamma();
+ 
+ 
++	#ifdef HAVE_GLES
++	if (!g_EGLWindowSurface || !dpy)
++	#else
+ 	if (!ctx || !dpy)
++	#endif
+ 		return;
+ 	IN_DeactivateMouse();
+ 	XAutoRepeatOn(dpy);
+ 	if (dpy) {
++		#ifdef HAVE_GLES
++		eglMakeCurrent( g_EGLDisplay, NULL, NULL, EGL_NO_CONTEXT );
++		if (g_EGLContext)
++			eglDestroyContext(g_EGLDisplay, g_EGLContext);
++		if (g_EGLWindowSurface)
++			eglDestroySurface(g_EGLDisplay, g_EGLWindowSurface);
++		eglTerminate(g_EGLDisplay);
++		#else
+ 		if (ctx)
+ 			qglXDestroyContext(dpy, ctx);
++		#endif
+ 		if (win)
+ 			XDestroyWindow(dpy, win);
+ 		if (vidmode_active)

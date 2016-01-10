@@ -1,0 +1,9 @@
+This front end was created by Emile Belanger.
+This code is under GPLv2 license.
+
+ECWolf and products deriving from it are allowed to use this code under the
+terms of the LGPLv2.1.
+
+Please contact me if you wish to use a different license.
+emile.belanger@gmail.com
+

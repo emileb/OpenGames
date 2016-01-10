@@ -1,0 +1,117 @@
+v3.0.1 19/07/15
+*Fixed Darkplaces crash
+*Fixed FTEQW and QuakeGL weapons
+*Fixed music for Darkplaces
+----
+v3.0 17/07/15
+*Added Malice TC
+*Updated to latest Darkplaces engine
+*Bug fixes
+----
+v2.5 20/11/2014
+*Put MP3 music in mod/mission pack folder and it will play instead
+*Fixed for Android 5.0
+*Updated touch control graphics
+----
+v2.4 22/07/14
+*Added menu gamepad controls
+*Removed unused OpenSSL lib, requirement by Google
+----
+v2.3.1 13/02/2014
+*Bug fix stop crash at launch for some devices
+----
+v2.3 09/02/2014
+*Added Immersion Mode in Darkplaces for those with KitKat (enable in Options tab)
+*Fixed Darkplaces crash on startup for some devices
+*Added social tab
+----
+v2.2.2 06/12/2013
+*Bug fix for Galaxy Tab 8.9
+----
+v2.2.1 14/11/2013
+*Fix settings crash for Android KitKat (4.4)
+*Bug fix 
+----
+v2.2 07/11/2013
+*Now can move weapon number buttons
+*Secure download of demo data
+----
+v2.1.2 30/09/2013
+*Fix potential crash at startup
+*Added email debug log option
+----
+v2.1.1 27/08/2013
+*Bug fix for GL Quake.
+----
+v2.1 25/08/2013
+*Added official support for MOGA Pocket and MOGA Pro
+*Added offline License option, contact support@beloko.com for more info
+----
+v2.0.2 02/08/2013
+*Fixed Darkplaces not saving settings on some devices
+----
+v2.0.1 05/07/2013
+*Fixed gamepad for DarkPlaces
+*Fixed missing textures for some devices
+*Fixed FPS limiter for DarkPlaces
+*Fixed Hide Touch Controls
+*Fixed console for DarkPlaces
+----
+v2.0 03/07/2013
+*Added latest DarkPlaces engine
+*New Icon (Thanks Ivan!)
+*Fixed 'jumpy/sticky' aim on Samsung phones
+----
+v1.7 10/06/2013
+*Map volume keys to actions
+*Limit FPS to save battery
+*Rotate screen either way
+----
+v1.6 30/05/2013
+*Quick Custom commands
+ + Quickly choose your own Quake commands to run
+ + Add/Remove/Re-order new commands
+ + Main Command list & Secondary Command list for MODs
+----
+v1.5 16/05/2013
+*Improved Touch controls graphics
+*Option to show/hide the movement arrows
+*Fixed save settings on some devices
+*Fixed gamepad analog sticks to be smoother
+*Removed GENREIC_AXIS from gamepad assignment(let me know if you used this)
+----
+v1.4.1 11/05/13
+*Invert Touch look option
+*Precision Shoot option
+----
+v1.4 06/05/13
+*Quick select Mods and Mission packs
+*Double tap for Shoot or Jump (see touch settings)
+*Fixed music ordering (was offset by 2)
+*Disable vibrate option
+*Option to Invert thumb sticks
+*Fixed Back Button
+*Stop music playing on exit of game
+*Speed up shutdown
+----
+v1.3.2 29/04/13
+*Fix Touch Control Settings so it scrolls so you can save the settings on smaller screens.
+----
+v1.3.1 28/04/13
+*Fix for FC bug on some devices
+----
+v1.3 27/04/13
+*Play game soundtrack (MP3 files)
+*Option 'mouse' look for touch screen turning
+*Added optional Next/Prev weapon buttons
+*Change sensitivity for gamepad sticks (long press)
+*Cleaner exit from game, no more hanging.
+----
+v1.2 24/04/13
+*Fixed "NET_SENDPACKET ERROR 22" message
+----
+v1.1 22/04/13
+*Change transparency of game controls
+*Change Base data directory
+----
+v1.0 20/04/13 Released

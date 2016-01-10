@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RadioGroup
+        android:id="@+id/res_radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/high_res_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="640x400" />
+
+        <RadioButton
+            android:id="@+id/low_res_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="320x240" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/extra_args_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start_buttons_linearlayout" >
+
+        <TextView
+            android:id="@+id/args_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Args: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/extra_args_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/args_textview"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/extra_args_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/args_history_imageview"
+            android:layout_toRightOf="@+id/extra_args_textview"
+            android:ems="10" >
+        </EditText>
+
+        <ImageView
+            android:id="@+id/args_history_imageview"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/history" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/start_buttons_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/start_full"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Play Game"
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

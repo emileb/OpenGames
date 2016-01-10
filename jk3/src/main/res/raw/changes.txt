@@ -1,0 +1,71 @@
+v3.1.1
+*Fixed weapon scroll buttons
+----
+v3.1
+*Amazon release
+----
+v3.0.2
+*Fixed subtitles
+----
+v3.0.1
+*Render bug in MP fixed
+----
+v3.0
+*New touch screen graphics
+*Updated to latest OpenJK (Multiplayer) so it now works again on internet
+*Added texture compression when Texture Detail is above Medium
+*Removed Texture Detail restriction, can now be 'Very High'. This will increase load times by a lot if used!
+----
+v2.3.1
+*Fixed Add/Remove buttons broken in last update
+----
+v2.3
+*Added option to use SDCard in KitKat (see Options tab + warning!)
+*Fix for Lucky Patcher
+----
+v2.2
+*Added menu gamepad controls (does not full work, but escape should work)
+*Removed unused OpenSSL lib, requirement by Google
+----
+v2.1
+(All updates below to Multiplayer)
+*Added console button to menu
+*Added inventory back in
+*Added Chat button
+*Added Scores button
+*Added Engage Duel button
+*Fixes to Force buttons
+----
+v2.0.1
+*Fix crash when changing settings in MP
+----
+v2.0
+*Added Multiplayer (beta!)
+----
+v1.3
+*Added Immersion Mode for KitKat (see Options to enable)
+*Fixed demo download for some people
+----
+v1.2.2
+*Fix for people who have a hacked Google Play app
+----
+v1.2.1
+*Fixed weapon wheel graphic for DL-44 Blaster Pistol
+*Fixed weapon wheel broken in last release (sorry!)
+----
+v1.2
+*Added custom touch screen quick keys (F1 to F4). See description
+*Soft Keyboard pops up to allow custom save game names 
+*Now walks at low speeds, fixes animation and step sounds.
+*Added Sheath/Unsheath Saber for Gamepads
+----
+v1.1
+*Added new Quick Force selection buttons
+*Fixed so MODs show up in the mod menu properly
+*Added Quick save/load for Gamepad
+----
+v1.0.1
+*Fixed Console button
+*Bug fix which stop it launching on some devices
+----
+v1.0 Initial Released

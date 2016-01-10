@@ -1,0 +1,185 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/select_wolf_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/wolf_linearlayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center" >
+
+            <ImageView
+
+                android:layout_width="200dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/wolf3d" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sod_linearlayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <ImageView
+
+                    android:layout_width="200dp"
+                    android:layout_height="66dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:src="@drawable/sod" />
+
+                <TextView
+                    android:id="@+id/sod_misson_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="SOD"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/res_radiogroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/high_res_radiobutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="640x400" />
+
+                <RadioButton
+                    android:id="@+id/low_res_radiobutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="320x240" />
+            </RadioGroup>
+
+            <CheckBox
+                android:id="@+id/disable_alpha_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Increase FPS" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/main_frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/select_wolf_linearlayout" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/holo_blue" >
+        </View>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/extra_args_linearlayout"
+        android:layout_below="@+id/select_wolf_linearlayout" >
+
+        <Button
+            android:id="@+id/googlePlay_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/amazon"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/extra_args_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start_buttons_linearlayout" >
+
+        <TextView
+            android:id="@+id/args_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Args: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/extra_args_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/args_textview"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/extra_args_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/args_history_imageview"
+            android:layout_toRightOf="@+id/extra_args_textview"
+            android:ems="10" >
+        </EditText>
+
+        <ImageView
+            android:id="@+id/args_history_imageview"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/history" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/start_buttons_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/start_demo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Demo"
+            android:visibility="gone"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/start_full"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Full"
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

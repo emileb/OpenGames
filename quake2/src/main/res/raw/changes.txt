@@ -1,0 +1,83 @@
+v2.1
+*First Amazon release
+----
+v2.0.1
+*Fixed Add/Removed buttons for touch controls
+*Fixed so phones lock screen won't kill app (probably!)
+----
+v2.0
+*Updated touch control graphics
+*Set to SDCard on KitKat
+----
+v1.12
+*Fixed for Lucky Patcher
+----
+v1.11
+*Added menu gamepad controls
+*Removed unused OpenSSL lib, requirement by Google
+----
+v1.10.1
+*Fixed Ground Zero Mission pack bug from last update.
+----
+v1.10
+*Added Immersion Mode for KitKat devices
+*Fixed possible crash on some devices.
+*Gamepad bug fix
+----
+v1.9.1
+*Fix settings crash for Android KitKat (4.4)
+*Bug fix
+----
+v1.9
+*Can now move position of weapon buttons, inventory and weapon wheel
+*Secure download of demo data
+----
+v1.8
+*Added Weapon Wheel - press centre of screen
+*Forced high colour mode
+*License bug fix
+----
+v1.7
+*Fixed weapon disappearing at fov > 90
+ -To improve the view on widescreen devices (all of them) go to the in-game Console and type 'fov 110'
+ *Change Menu and HUD size, see OPTIONS tab.
+ *Added official support for MOGA Pocket and MOGA Pro
+ *Added offline License option. Contact support@beloko.com for more info.
+----
+v1.6
+*Added Capture The Flag (Multiplayer mod)
+*New Icon (Thanks Ivan!)
+*Fixed 'jumpy' aim on Samsung phones
+*Fixed missing touch graphics on some devices
+----
+v1.5
+*Map volume keys to actions
+*Limit FPS to save battery
+----
+v1.4
+*Now supports the 2 Mission Packs:
+ + The Reckoning
+ + Ground Zero
+*Quick Custom commands
+ + Quickly choose your own Quake commands to run
+ + Add/Remove/Re-order new commands
+----
+v1.3.1
+*Fixed crash when the Rail Gun is fired
+----
+v1.3
+*Fixed Video playback
+*Fixed missing graphics
+*Fixed "plaque loading" lockup on some fast devices
+*Stop music when minimised
+*Allow the screen to rotate either way
+----
+v1.2
+*Made Menu and HUD graphics larger on high-res displays
+*Fixed music playback
+----
+v1.1
+*Added missing 'crouch' button for gamepad
+*Fixed license
+----
+v1.0 Initial Released

@@ -1,0 +1,8 @@
+Fixed setup menu
+
+Problem was parsing the .menu files
+Bugs in ui_shared.cpp:
+line 3509 and 3586
+Changed "if ((int)token > 0)" to "if (token > 0)"
+
+Problem is some deivce will put memory above 0x8000000, converting to int is the bug

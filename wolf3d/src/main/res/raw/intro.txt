@@ -1,0 +1,11 @@
+Thank you for downloading Wolfenstein 3D Touch.
+
+Please copy your *.WL6 or *.SOD files to /sdcard/Beloko/Wolf3d/FULL/ from your copy of Wolfenstein 3D or Spear Of Destiny
+
+You can change the folder location in the OPTIONS tab. 
+
+Press 'Start Demo' to download and play the Shareware version of Wolf 3D (1 MB download)
+
+If you like this app please consider leaving a review on Google Play!
+
+If you have any issues please contact us at support@beloko.com.

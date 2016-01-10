@@ -1,0 +1,21 @@
+02-02-01: arton@tacheles.de
+
+- let bot get pushed by jumppads
+
+02-01-31: arton@tacheles.de
+
+- default vwep support, so missing ones dont show diamonds
+- reduce compiler warnings some more
+
+02-01-20: xtoon@tacheles.de
+
+- lcc compile
+
+02-01-20: arton@tacheles.de
+
+- directory access in menu fixed for linux
+
+02-01-18: arton@tacheles.de
+
+- find sources ;)
+- trace some compiler warnings, replace itoa by sprintf,

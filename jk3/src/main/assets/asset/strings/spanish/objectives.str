@@ -1,0 +1,408 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "the objectives... duh..."
+
+REFERENCE           LIGHTSIDE_OBJ
+LANG_ENGLISH        "This is set to 2 (failed) if the player has turned Dark Side."
+LANG_SPANISH        "Esto se configura en 2 (fracaso) si el jugador se pasa al lado oscuro."
+
+REFERENCE           HOTH2_OBJ1
+LANG_ENGLISH        "Investigate the site where Luke had his force vision."
+LANG_SPANISH        "Investiga el lugar en el que Luke tuvo su visión."
+
+REFERENCE           HOTH2_OBJ2
+LANG_ENGLISH        "Find a way into Echo Base."
+LANG_SPANISH        "Encuentra una forma de entrar en la Base Echo."
+
+REFERENCE           HOTH2_OBJ3
+LANG_ENGLISH        "Find an alternate entrance to Echo Base."
+LANG_SPANISH        "Encuentra una entrada alternativa a la Base Echo."
+
+REFERENCE           HOTH3_OBJ1
+LANG_ENGLISH        "Discover what the Imperials are doing in Echo Base"
+LANG_SPANISH        "Descubre qué están haciendo los Imperiales en la Base Echo"
+
+REFERENCE           HOTH3_OBJ2
+LANG_ENGLISH        "Make your way to the Hanger Bay to confront Alora."
+LANG_SPANISH        "Entra en la plataforma de aterrizaje para enfrentarte a Alora."
+
+REFERENCE           HOTH3_OBJ3
+LANG_ENGLISH        "Defeat Alora."
+LANG_SPANISH        "Derrota a Alora."
+
+REFERENCE           T2_DPREDICAMENT_OBJ1
+LANG_ENGLISH        "Escape the Prison!"
+LANG_SPANISH        "¡Escapa de la prisión!"
+
+REFERENCE           T2_DPREDICAMENT_OBJ2
+LANG_ENGLISH        "Disable security locks from Commander's Office."
+LANG_SPANISH        "Abre las cerraduras de seguridad de la oficina del comandante."
+
+REFERENCE           T2_DPREDICAMENT_OBJ3
+LANG_ENGLISH        "Gain access to the Docking Bay."
+LANG_SPANISH        "Accede a la plataforma de aterrizaje."
+
+REFERENCE           T2_DPREDICAMENT_OBJ4
+LANG_ENGLISH        "Defeat Rax Joris to get your lightsaber back."
+LANG_SPANISH        "Derrota a Rax Joris para recuperar tu sable láser."
+
+REFERENCE           T2_RANCOR_OBJ1
+LANG_ENGLISH        "Infiltrate the Hutt's stronghold and locate the prisoners."
+LANG_SPANISH        "Infíltrate en la fortaleza del Hutt y localiza a los prisioneros."
+
+REFERENCE           T2_RANCOR_OBJ2
+LANG_ENGLISH        "Release the prisoners from their cells and guide them to the ventilation pipe for pickup by Kyle."
+LANG_SPANISH        "Libera a los prisioneros de las celdas y condúcelos hasta el conducto de ventilación para que los recoja Kyle."
+
+REFERENCE           T2_RANCOR_OBJ3
+LANG_ENGLISH        "Clear the way to the exit."
+LANG_SPANISH        "Ábrete camino hacia la salida."
+
+REFERENCE           T2_RANCOR_OBJ4
+LANG_ENGLISH        "Get back to the access tunnel for extraction."
+LANG_SPANISH        "Vuelve al túnel de acceso para la extracción."
+
+REFERENCE           T2_RANCOR_OBJ6
+LANG_ENGLISH        "Avoid the rancor."
+LANG_SPANISH        "Esquiva al rancor."
+
+REFERENCE           T2_RANCOR_OBJ5
+LANG_ENGLISH        "You have saved %d of %d prisoners."
+LANG_SPANISH        "Has salvado a %d prisioneros de %d."
+
+REFERENCE           T2_RANCOR_OBJ5_2
+NOTES               "This is called in code if the current number saved is greater than the amount that had to be saved to complete the objective."
+LANG_ENGLISH        "You have saved %d of %d prisoners and %d additional."
+LANG_SPANISH        "Has salvado a %d prisioneros de %d y a %d más."
+
+REFERENCE           T2_WEDGE_OBJ1
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Shield Generator building."
+LANG_SPANISH        "Coloca un rayo de selección de objetivo en el tejado del edificio del generador de escudo."
+
+REFERENCE           T2_WEDGE_OBJ2
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Hangar."
+LANG_SPANISH        "Coloca un rayo de selección de objetivo en el tejado."
+
+REFERENCE           T2_WEDGE_OBJ3
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Barracks."
+LANG_SPANISH        "Coloca un rayo de selección de objetivo en el tejado."
+
+REFERENCE           T2_WEDGE_OBJ4
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Communications Array."
+LANG_SPANISH        "Coloca un rayo de selección de objetivo en el tejado de la matriz de comunicaciones."
+
+REFERENCE           T2_WEDGE_OBJ5
+LANG_ENGLISH        "Place a targeting beacon on the Power Generator."
+LANG_SPANISH        "Coloca un rayo de selección de objetivo en el generador de energía."
+
+REFERENCE           T2_WEDGE_OBJ6
+LANG_ENGLISH        "Place a targeting beacon inside the Command Tower."
+LANG_SPANISH        "Coloca un rayo de selección de objetivo en la torre de control."
+
+REFERENCE           T2_WEDGE_OBJ7
+LANG_ENGLISH        "Stop the Imperials from detonating the Tibanna Gas Tanks."
+LANG_SPANISH        "Evita que los Imperiales exploten los tanques de gas de Tibanna."
+
+REFERENCE           T2_WEDGE_OBJ8
+LANG_ENGLISH        "Return to your Ship."
+LANG_SPANISH        "Vuelve a tu nave."
+
+REFERENCE           T2_WEDGE_OBJ9
+LANG_ENGLISH        "Disarm the four remaining Bombs on the Tibanna Gas Tanks."
+LANG_SPANISH        "Desactiva las cuatro bombas que quedan en los tanques de gas de Tibanna."
+
+REFERENCE           T2_WEDGE_OBJ10
+LANG_ENGLISH        "Disarm the three remaining Bombs on the Tibanna Gas Tanks."
+LANG_SPANISH        "Desactiva las tres bombas que quedan en los tanques de gas de Tibanna."
+
+REFERENCE           T2_WEDGE_OBJ11
+LANG_ENGLISH        "Disarm the two remaining Bombs on the Tibanna Gas Tanks."
+LANG_SPANISH        "Desactiva las dos bombas que quedan en los tanques de gas de Tibanna."
+
+REFERENCE           T2_WEDGE_OBJ12
+LANG_ENGLISH        "Disarm the one remaining Bomb on the Tibanna Gas Tanks."
+LANG_SPANISH        "Desactiva la bomba que queda en los tanques de gas de Tibanna."
+
+REFERENCE           T3_RIFT_OBJ1
+LANG_ENGLISH        "Tavion's minions are preparing for her arrival. Stop them from desecrating the Jedi Tomb."
+LANG_SPANISH        "Los lacayos de Tavion se están preparando para su llegada. Impide que consagren la tumba del jedi."
+
+REFERENCE           T3_RIFT_OBJ2
+LANG_ENGLISH        "Defeat the Jedi and find a way to protect the Jedi Master's coffin."
+LANG_SPANISH        "Derrota al jedi y encuentra una forma de proteger el ataúd del Maestro Jedi."
+
+REFERENCE           T3_RIFT_OBJ3
+LANG_ENGLISH        "Escape from the tomb."
+LANG_SPANISH        "Escapa de la tumba."
+
+REFERENCE           T1_DANGER_OBJ1
+LANG_ENGLISH        "Find and bring back to your ship an Energy Cell."
+LANG_SPANISH        "Encuentra una célula de energía y llévala a tu nave."
+
+REFERENCE           T1_DANGER_OBJ2
+LANG_ENGLISH        "Find and bring back to your ship a Power Coupling."
+LANG_SPANISH        "Encuentra un acoplamiento de energía y llévalo a tu nave."
+
+REFERENCE           T1_DANGER_OBJ3
+LANG_ENGLISH        "Find and bring back to your ship a Damper."
+LANG_SPANISH        "Encuentra un regulador y llévalo a tu nave."
+
+REFERENCE           T1_DANGER_OBJ4
+LANG_ENGLISH        "Find and bring back to your ship a Power Converter."
+LANG_SPANISH        "Encuentra un convertidor de poder y llévalo a tu nave."
+
+REFERENCE           T1_DANGER_OBJ5
+LANG_ENGLISH        "Only one ship part may be carried at a time.  Return a part to the ship in order to retrieve another."
+LANG_SPANISH        "Sólo puedes transportar un componente de la nave cada vez. Lleva un componente a la nave para poder recuperar otro."
+
+REFERENCE           T3_BOUNTY_OBJ1
+LANG_ENGLISH        "Destroy all Weapon Caches."
+LANG_SPANISH        "Destruye todos los alijos de armas."
+
+REFERENCE           T3_BOUNTY_OBJ2
+LANG_ENGLISH        "Return to your Ship."
+LANG_SPANISH        "Vuelve a tu nave."
+
+REFERENCE           T3_BOUNTY_OBJ3
+LANG_ENGLISH        "Six Weapon Caches left."
+LANG_SPANISH        "Quedan seis alijos de armas."
+
+REFERENCE           T3_BOUNTY_OBJ4
+LANG_ENGLISH        "Five Weapon Caches left."
+LANG_SPANISH        "Quedan cinco alijos de armas."
+
+REFERENCE           T3_BOUNTY_OBJ5
+LANG_ENGLISH        "Four Weapon Caches left."
+LANG_SPANISH        "Quedan cuatro alijos de armas."
+
+REFERENCE           T3_BOUNTY_OBJ6
+LANG_ENGLISH        "Three Weapon Caches left."
+LANG_SPANISH        "Quedan tres alijos de armas."
+
+REFERENCE           T3_BOUNTY_OBJ7
+LANG_ENGLISH        "Two Weapon Caches left."
+LANG_SPANISH        "Quedan dos alijos de armas."
+
+REFERENCE           T3_BOUNTY_OBJ8
+LANG_ENGLISH        "One Weapon Cache left."
+LANG_SPANISH        "Queda un alijo de armas."
+
+REFERENCE           T3_BOUNTY_OBJ9
+LANG_ENGLISH        "Defeat Boba Fett to get out of this\none alive."
+LANG_SPANISH        "Derrota a Boba Fett para\nsalir con vida."."
+
+REFERENCE           T2_ROGUE_OBJ1
+LANG_ENGLISH        "Capture Lannik Racto."
+LANG_SPANISH        "Captura a Lannik Racto."
+
+REFERENCE           T2_ROGUE_OBJ2
+LANG_ENGLISH        "Gain access to Racto's office building."
+LANG_SPANISH        "Entra en las oficinas de Racto."
+
+REFERENCE           T2_TRIP_OBJ1
+LANG_ENGLISH        "Meet the contact at his outpost."
+LANG_SPANISH        "Encuéntrate con el contacto en su puesto de avanzada."
+
+REFERENCE           T2_TRIP_OBJ2
+LANG_ENGLISH        "Escape from the mercenaries and make your way to the far city gate."
+LANG_SPANISH        "Escapa de los mercenarios y consigue llegar a la lejana puerta de la ciudad."
+
+REFERENCE           T3_BYSS_OBJ1
+LANG_ENGLISH        "Disable the tractor beam holding the Raven's Claw in place."
+LANG_SPANISH        "Desactiva el rayo tractor que no permite que la Garra despegue."
+
+REFERENCE           T3_BYSS_OBJ2
+LANG_ENGLISH        "Use the laser turrets at the top of the ship to hold off the attacking TIE fighters"
+LANG_SPANISH        "Utiliza las torretas láser que se encuentran encima de la nave para librarte de los cazas TIE"
+
+REFERENCE           T3_BYSS_OBJ3
+LANG_ENGLISH        "Get back to your Ship."
+LANG_SPANISH        "Vuelve a tu nave."
+
+REFERENCE           T3_HEVIL_OBJ1
+LANG_ENGLISH        "Reach the top of the tower where the cloaking emitter is located."
+LANG_SPANISH        "Llega a la parte de arriba de la torre donde está colocado el emisor de encubrimiento."
+
+REFERENCE           T3_HEVIL_OBJ2
+LANG_ENGLISH        "Set the detonator charges to destroy the Cloak Generator."
+LANG_SPANISH        "Coloca las cargas del detonador para destruir el generador de encubrimiento."
+
+REFERENCE           T3_HEVIL_OBJ3
+LANG_ENGLISH        "Defeat the Noghri guardians."
+LANG_SPANISH        "Derrota a los guardianes Noghri."
+
+REFERENCE           T3_STAMP_OBJ1
+LANG_ENGLISH        "Defeat the cultists."
+LANG_SPANISH        "Derrrota a los sectarios."
+
+REFERENCE           T3_STAMP_OBJ2
+LANG_ENGLISH        "Find a way to stop the mutated rancor.  Weapons are useless against it."
+LANG_SPANISH        "Encuentra un modo de destruir al rancor mutante. Las armas son inútiles contra él."
+
+REFERENCE           T3_STAMP_OBJ3
+LANG_ENGLISH        "Place a new crate over the conveyor belt to trap the mutant rancor."
+LANG_SPANISH        "Coloca una nueva caja en la cinta transportadora para atrapar al rancor mutante."
+
+REFERENCE           T3_STAMP_OBJ4
+LANG_ENGLISH        "Trap the mutant rancor on the conveyor belt by using the hanging crate."
+LANG_SPANISH        "Atrapa al rancor mutante en la cinta transportadora utilizando la caja colgante."
+
+REFERENCE           TASPIR1_OBJ1
+LANG_ENGLISH        "Gain access to the Imperial Power facility."
+LANG_SPANISH        "Entra en la central de energía de los Imperiales."
+
+REFERENCE           TASPIR1_OBJ2
+LANG_ENGLISH        "Extend the bridge and heat shields leading to the Security Override controls."
+LANG_SPANISH        "Despliega el puente y los escudos de calor que llevan a los controles de anulación de seguridad."
+
+REFERENCE           TASPIR1_OBJ3
+LANG_ENGLISH        "Enable power to the main walkway by using the Security Override controls."
+LANG_SPANISH        "Activa la energía de la plataforma principal utilizando los controles de anulación de seguridad."
+
+REFERENCE           TASPIR1_OBJ4
+LANG_ENGLISH        "Extend the main walkway to the Imperial Power facility."
+LANG_SPANISH        "Despliega la plataforma principal que lleva a la central de energía de los Imperiales."
+
+REFERENCE           TASPIR2_OBJ1
+LANG_ENGLISH        "Find Rosh Penin."
+LANG_SPANISH        "Encuentra a Rosh Penin."
+
+REFERENCE           TASPIR2_OBJ2
+LANG_ENGLISH        "Defeat Alora."
+LANG_SPANISH        "Derrota a Alora."
+
+REFERENCE           VJUN1_OBJ1
+LANG_ENGLISH        "Make your way to Bast Castle through the acidic rain."
+LANG_SPANISH        "Consigue llegar al Castillo Bast a través de la lluvia ácida."
+
+REFERENCE           VJUN1_OBJ2
+LANG_ENGLISH        "Find a way to the emplaced gun and use it to destroy the Tie-Bombers."
+LANG_SPANISH        "Encuentra el modo de llegar al emplazamiento de la pistola y destruye los Bombarderos TIE."
+
+REFERENCE           VJUN2_OBJ1
+LANG_ENGLISH        "Find a way into the upper parts of the Castle."
+LANG_SPANISH        "Encuentra el modo de llegar a la parte superior del castillo."
+
+REFERENCE           VJUN3_OBJ1
+LANG_ENGLISH        "Investigate Cult activities."
+LANG_SPANISH        "Investiga las actividades de la secta."
+
+REFERENCE           YAVIN1_OBJ1
+LANG_ENGLISH        "Make your way to the Massassi Temple with Rosh."
+LANG_SPANISH        "Ábrete camino hasta el templo Massassi con Rosh."
+
+REFERENCE           YAVIN1_OBJ2
+LANG_ENGLISH        "Find a way to rescue Rosh from the ledge he is on."
+LANG_SPANISH        "Encuentra un modo de rescatar a Rosh del saliente en el que se encuentra."
+
+REFERENCE           YAVIN2_OBJ1
+LANG_ENGLISH        "Complete the Training Course."
+LANG_SPANISH        "Completa el curso de entrenamiento."
+
+REFERENCE           T1_FATAL_OBJ1
+LANG_ENGLISH        "Disarm the 5 bombs the Imperials have placed."
+LANG_SPANISH        "Desactiva las 5 bombas que han puesto los Imperiales."
+
+REFERENCE           T1_FATAL_OBJ2
+LANG_ENGLISH        "Disarm the last 4 bombs."
+LANG_SPANISH        "Desactiva las últimas 4 bombas."
+
+REFERENCE           T1_FATAL_OBJ3
+LANG_ENGLISH        "Disarm the last 3 bombs."
+LANG_SPANISH        "Desactiva las últimas 3 bombas."
+
+REFERENCE           T1_FATAL_OBJ4
+LANG_ENGLISH        "Disarm the last 2 bombs."
+LANG_SPANISH        "Desactiva las últimas 2 bombas."
+
+REFERENCE           T1_FATAL_OBJ5
+LANG_ENGLISH        "Disarm the last bomb."
+LANG_SPANISH        "Desactiva la última bomba."
+
+REFERENCE           T1_FATAL_OBJ6
+LANG_ENGLISH        "Get back to your ship."
+LANG_SPANISH        "Vuelve a tu nave."
+
+REFERENCE           KOR1_OBJ1
+LANG_ENGLISH        "Find a way through the Sith Catacombs to the Valley floor."
+LANG_SPANISH        "Ábrete camino a través de las catacumbas Sith hasta el valle."
+
+REFERENCE           KOR1_OBJ2
+LANG_ENGLISH        "Find a way to open the door to the valley."
+LANG_SPANISH        "Encuentra un modo de abrir la puerta del valle."
+
+REFERENCE           KOR2_OBJ1
+LANG_ENGLISH        "Navigate the ancient ruins and enter the Tomb of Ragnos."
+LANG_SPANISH        "Recorre las antiguas ruinas y entra en la tumba de Ragnos."
+
+REFERENCE           KOR2_OBJ2
+LANG_ENGLISH        "Stop Tavion from resurrecting Marka Ragnos."
+LANG_SPANISH        "Evita que Tavion resucite a Marka Ragnos."
+
+REFERENCE           KOR2_OBJ3
+LANG_ENGLISH        "Defeat Tavion/Ragnos."
+LANG_SPANISH        "Derrota a Tavion / Ragnos."
+
+REFERENCE           KOR2_OBJ4
+LANG_ENGLISH        "Defeat Kyle Katarn."
+LANG_SPANISH        "Derrota a Kyle Katarn."
+
+REFERENCE           T1_RAIL_OBJ1
+LANG_ENGLISH        "Make your way to the front of the tram."
+LANG_SPANISH        "Llega hasta la parte delantera del tren."
+
+REFERENCE           T1_RAIL_OBJ2
+LANG_ENGLISH        "Disarm the bomb."
+LANG_SPANISH        "Desactiva la bomba."
+
+REFERENCE           T1_RAIL_OBJ3
+LANG_ENGLISH        "Stop the tram from reaching the station."
+LANG_SPANISH        "Evita que el tren llegue a la estación."
+
+REFERENCE           T1_SOUR_OBJ1
+LANG_ENGLISH        "Eliminate the mercenary threat."
+LANG_SPANISH        "Elimina la amenaza mercenaria."
+
+REFERENCE           T1_SOUR_OBJ2
+LANG_ENGLISH        "Disable the tractor beams holding the Raven's Claw."
+LANG_SPANISH        "Desactiva los rayos que no permiten que la Garra de Cuervo despegue."
+
+REFERENCE           T1_SOUR_OBJ3
+LANG_ENGLISH        "Disable the tractor beams holding the Millennium Falcon."
+LANG_SPANISH        "Desactiva los rayos que no permiten que el Halcón Milenario despegue."
+
+REFERENCE           T1_SOUR_OBJ4
+LANG_ENGLISH        "Get back to the Millenium Falcon."
+LANG_SPANISH        "Vuelve al Halcón Milenario."
+
+REFERENCE           T1_SURPRISE_OBJ1
+LANG_ENGLISH        "Locate the missing Sandcrawler."
+LANG_SPANISH        "Localiza el sandcrawler que falta."
+
+REFERENCE           T1_SURPRISE_OBJ2
+LANG_ENGLISH        "Eliminate the Tusken Raiders."
+LANG_SPANISH        "Elimina a los incursores Tusken."
+
+REFERENCE           T1_SURPRISE_OBJ3
+LANG_ENGLISH        "Retrieve the droid from the Sandcrawler."
+LANG_SPANISH        "Recupera el androide del sandcrawler."
+
+REFERENCE           T1_SURPRISE_OBJ4
+LANG_ENGLISH        "Prevent the droid from being destroyed."
+LANG_SPANISH        "Evita que el androide sea destruido."
+
+
+ENDMARKER
+
+

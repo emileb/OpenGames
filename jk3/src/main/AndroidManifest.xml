@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beloko.jk3"
+    android:versionCode="21"
+    android:versionName="3.1.1" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/quake_activity" >
+        <activity
+            android:name="com.beloko.jk3touch.EntryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_entry"
+            android:launchMode="singleInstance"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.beloko.opengames.jk3.Game"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:process=":game"
+            android:screenOrientation="sensorLandscape"
+            >
+        </activity>
+                <activity
+            android:name="com.beloko.opengames.jk3mp.Game"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:process=":game"
+            android:screenOrientation="sensorLandscape"
+            >
+        </activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="14c46c420d854b29c65ed8a9053c8fdc655b28c2" />
+    </application>
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="19" >
+    </uses-sdk>
+
+</manifest>

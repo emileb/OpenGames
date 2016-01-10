@@ -1,0 +1,7 @@
+~$
+.orig$
+syntax: glob
+src/svnrevision.h
+android-libs/launcher/src/com/beloko/idtech/R.java
+syntax: regexp
+^build[a-zA-Z0-9_\-]*/

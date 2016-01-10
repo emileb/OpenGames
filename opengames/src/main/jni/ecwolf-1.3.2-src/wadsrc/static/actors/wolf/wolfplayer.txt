@@ -1,0 +1,53 @@
+actor BJPlayer : PlayerPawn
+{
+	health 100
+	radius 22
+	player.movebob 0
+	player.viewheight 32
+	player.displayname "BJ Blazkowicz"
+	player.startitem "Clip", 8
+	player.startitem "Pistol"
+	player.startitem "Knife"
+	player.weaponslot 1, "Knife"
+	player.weaponslot 2, "Pistol"
+	player.weaponslot 3, "MachineGun"
+	player.weaponslot 4, "GatlingGun"
+	player.damagescreencolor "FF 00 00"
+}
+
+actor LostBJPlayer : BJPlayer
+{
+	player.displayname "BJ Blazkowicz"
+	player.startitem "BlueClip", 8
+	player.startitem "BluePistol"
+	player.startitem "Knife2"
+	player.weaponslot 1, "Knife2"
+	player.weaponslot 2, "BluePistol"
+	player.weaponslot 3, "BlueAK47"
+	player.weaponslot 4, "BlueGatlingGun"
+}
+
+actor BJRun
+{
+	// GROSS HACK
+	radius 80
+	speed 4, 1.328
+	states
+	{
+		Spawn:
+			BLAZ A 6 NOP A_Chase("*", "*", CHF_NOSIGHTCHECK)
+			BLAZ A 1.5
+			BLAZ B 4 NOP A_Chase("*", "*", CHF_NOSIGHTCHECK)
+			BLAZ C 6 NOP A_Chase("*", "*", CHF_NOSIGHTCHECK)
+			BLAZ C 1.5
+			BLAZ D 4 NOP A_Chase("*", "*", CHF_NOSIGHTCHECK)
+			loop
+		Death:
+			BLAZ E 7
+			BLAZ F 7 A_PlaySound("misc/yeah")
+			BLAZ G 7
+			BLAZ H 150 A_Stop
+			BLAZ H -1 Exit_Victory
+			stop
+	}
+}

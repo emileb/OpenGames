@@ -1,0 +1,863 @@
+tiles
+{
+	trigger 21
+	{
+		action = 3;
+		playeruse = true;
+		activatenorth = false;
+		activatesouth = false;
+	}
+	trigger 90
+	{
+		action = 1;
+		arg1 = 16;
+		arg2 = 300;
+		playeruse = true;
+		monsteruse = true;
+		repeatable = true;
+		activatenorth = false;
+		activatesouth = false;
+	}
+	trigger 91
+	{
+		action = 1;
+		arg1 = 16;
+		arg2 = 300;
+		arg4 = 1;
+		playeruse = true;
+		monsteruse = true;
+		repeatable = true;
+		activateeast = false;
+		activatewest = false;
+	}
+	trigger 92
+	{
+		action = 1;
+		arg1 = 16;
+		arg2 = 300;
+		arg3 = 1;
+		playeruse = true;
+		monsteruse = true;
+		repeatable = true;
+		activatenorth = false;
+		activatesouth = false;
+	}
+	trigger 93
+	{
+		action = 1;
+		arg1 = 16;
+		arg2 = 300;
+		arg3 = 1;
+		arg4 = 1;
+		playeruse = true;
+		monsteruse = true;
+		repeatable = true;
+		activateeast = false;
+		activatewest = false;
+	}
+	trigger 94
+	{
+		action = 1;
+		arg1 = 16;
+		arg2 = 300;
+		arg3 = 2;
+		playeruse = true;
+		monsteruse = true;
+		repeatable = true;
+		activatenorth = false;
+		activatesouth = false;
+	}
+	trigger 95
+	{
+		action = 1;
+		arg1 = 16;
+		arg2 = 300;
+		arg3 = 2;
+		arg4 = 1;
+		playeruse = true;
+		monsteruse = true;
+		repeatable = true;
+		activateeast = false;
+		activatewest = false;
+	}
+	trigger 96
+	{
+		action = 1;
+		arg1 = 16;
+		arg2 = 300;
+		arg3 = 3;
+		playeruse = true;
+		monsteruse = true;
+		repeatable = true;
+		activatenorth = false;
+		activatesouth = false;
+	}
+	trigger 97
+	{
+		action = 1;
+		arg1 = 16;
+		arg2 = 300;
+		arg3 = 3;
+		arg4 = 1;
+		playeruse = true;
+		monsteruse = true;
+		repeatable = true;
+		activateeast = false;
+		activatewest = false;
+	}
+	trigger 98
+	{
+		action = 1;
+		arg1 = 16;
+		arg2 = 300;
+		arg3 = 4;
+		playeruse = true;
+		monsteruse = true;
+		repeatable = true;
+		activatenorth = false;
+		activatesouth = false;
+	}
+	trigger 99
+	{
+		action = 1;
+		arg1 = 16;
+		arg2 = 300;
+		arg3 = 4;
+		arg4 = 1;
+		playeruse = true;
+		monsteruse = true;
+		repeatable = true;
+		activateeast = false;
+		activatewest = false;
+	}
+	trigger 100
+	{
+		action = 1;
+		arg1 = 16;
+		arg2 = 300;
+		playeruse = true;
+		monsteruse = true;
+		repeatable = true;
+		activatenorth = false;
+		activatesouth = false;
+	}
+	trigger 101
+	{
+		action = 1;
+		arg1 = 16;
+		arg2 = 300;
+		arg4 = 1;
+		playeruse = true;
+		monsteruse = true;
+		repeatable = true;
+		activateeast = false;
+		activatewest = false;
+	}
+
+	tile 1
+	{
+		texturenorth = "GSTONEA1";
+		texturesouth = "GSTONEA1";
+		textureeast = "GSTONEA2";
+		texturewest = "GSTONEA2";
+	}
+	tile 2
+	{
+		texturenorth = "GSTONEB1";
+		texturesouth = "GSTONEB1";
+		textureeast = "GSTONEB2";
+		texturewest = "GSTONEB2";
+	}
+	tile 3
+	{
+		texturenorth = "GSTFLAG1";
+		texturesouth = "GSTFLAG1";
+		textureeast = "GSTFLAG2";
+		texturewest = "GSTFLAG2";
+	}
+	tile 4
+	{
+		texturenorth = "GSTHTLR1";
+		texturesouth = "GSTHTLR1";
+		textureeast = "GSTHTLR2";
+		texturewest = "GSTHTLR2";
+	}
+	tile 5
+	{
+		texturenorth = "BSTCELA1";
+		texturesouth = "BSTCELA1";
+		textureeast = "BSTCELA2";
+		texturewest = "BSTCELA2";
+	}
+	tile 6
+	{
+		texturenorth = "GSTEAGL1";
+		texturesouth = "GSTEAGL1";
+		textureeast = "GSTEAGL2";
+		texturewest = "GSTEAGL2";
+	}
+	tile 7
+	{
+		texturenorth = "BSTCELB1";
+		texturesouth = "BSTCELB1";
+		textureeast = "BSTCELB2";
+		texturewest = "BSTCELB2";
+	}
+	tile 8
+	{
+		texturenorth = "BSTONEA1";
+		texturesouth = "BSTONEA1";
+		textureeast = "BSTONEA2";
+		texturewest = "BSTONEA2";
+	}
+	tile 9
+	{
+		texturenorth = "BSTONEB1";
+		texturesouth = "BSTONEB1";
+		textureeast = "BSTONEB2";
+		texturewest = "BSTONEB2";
+	}
+	tile 10
+	{
+		texturenorth = "WODEAGL1";
+		texturesouth = "WODEAGL1";
+		textureeast = "WODEAGL2";
+		texturewest = "WODEAGL2";
+	}
+	tile 11
+	{
+		texturenorth = "WODHTLR1";
+		texturesouth = "WODHTLR1";
+		textureeast = "WODHTLR2";
+		texturewest = "WODHTLR2";
+	}
+	tile 12
+	{
+		texturenorth = "WOOD1";
+		texturesouth = "WOOD1";
+		textureeast = "WOOD2";
+		texturewest = "WOOD2";
+	}
+	tile 13
+	{
+		texturenorth = "FAKEDOR1";
+		texturesouth = "FAKEDOR1";
+		textureeast = "FAKEDOR2";
+		texturewest = "FAKEDOR2";
+	}
+	tile 14
+	{
+		texturenorth = "METLSGN1";
+		texturesouth = "METLSGN1";
+		textureeast = "METLSGN2";
+		texturewest = "METLSGN2";
+	}
+	tile 15
+	{
+		texturenorth = "METAL1";
+		texturesouth = "METAL1";
+		textureeast = "METAL2";
+		texturewest = "METAL2";
+	}
+	tile 16
+	{
+		texturenorth = "SKY1";
+		texturesouth = "SKY1";
+		textureeast = "SKY2";
+		texturewest = "SKY2";
+	}
+	tile 17
+	{
+		texturenorth = "BRICK1";
+		texturesouth = "BRICK1";
+		textureeast = "BRICK2";
+		texturewest = "BRICK2";
+	}
+	tile 18
+	{
+		texturenorth = "BRIKWRT1";
+		texturesouth = "BRIKWRT1";
+		textureeast = "BRIKWRT2";
+		texturewest = "BRIKWRT2";
+	}
+	tile 19
+	{
+		texturenorth = "PURPLE1";
+		texturesouth = "PURPLE1";
+		textureeast = "PURPLE2";
+		texturewest = "PURPLE2";
+	}
+	tile 20
+	{
+		texturenorth = "BRIKEGL1";
+		texturesouth = "BRIKEGL1";
+		textureeast = "BRIKEGL2";
+		texturewest = "BRIKEGL2";
+	}
+	tile 21
+	{
+		texturenorth = "ELEV1_1";
+		texturesouth = "ELEV1_1";
+		textureeast = "ELEV1_2";
+		texturewest = "ELEV1_2";
+	}
+	tile 22
+	{
+		texturenorth = "ELEV2_1";
+		texturesouth = "ELEV2_1";
+		textureeast = "ELEV2_2";
+		texturewest = "ELEV2_2";
+	}
+	tile 23
+	{
+		texturenorth = "WODCROS1";
+		texturesouth = "WODCROS1";
+		textureeast = "WODCROS2";
+		texturewest = "WODCROS2";
+	}
+	tile 24
+	{
+		texturenorth = "GSTSLME1";
+		texturesouth = "GSTSLME1";
+		textureeast = "GSTSLME2";
+		texturewest = "GSTSLME2";
+	}
+	tile 25
+	{
+		texturenorth = "PURPBLD1";
+		texturesouth = "PURPBLD1";
+		textureeast = "PURPBLD2";
+		texturewest = "PURPBLD2";
+	}
+	tile 26
+	{
+		texturenorth = "GSTLSLM1";
+		texturesouth = "GSTLSLM1";
+		textureeast = "GSTLSLM2";
+		texturewest = "GSTLSLM2";
+	}
+	tile 27
+	{
+		texturenorth = "GSTONEC1";
+		texturesouth = "GSTONEC1";
+		textureeast = "GSTONEC2";
+		texturewest = "GSTONEC2";
+	}
+	tile 28
+	{
+		texturenorth = "GSTSIGN1";
+		texturesouth = "GSTSIGN1";
+		textureeast = "GSTSIGN2";
+		texturewest = "GSTSIGN2";
+	}
+	tile 29
+	{
+		texturenorth = "CHIP1";
+		texturesouth = "CHIP1";
+		textureeast = "CHIP2";
+		texturewest = "CHIP2";
+	}
+	tile 30
+	{
+		texturenorth = "CHPBLDA1";
+		texturesouth = "CHPBLDA1";
+		textureeast = "CHPBLDA2";
+		texturewest = "CHPBLDA2";
+	}
+	tile 31
+	{
+		texturenorth = "CHPBLDB1";
+		texturesouth = "CHPBLDB1";
+		textureeast = "CHPBLDB2";
+		texturewest = "CHPBLDB2";
+	}
+	tile 32
+	{
+		texturenorth = "CHPBLDC1";
+		texturesouth = "CHPBLDC1";
+		textureeast = "CHPBLDC2";
+		texturewest = "CHPBLDC2";
+	}
+	tile 33
+	{
+		texturenorth = "GLASS1";
+		texturesouth = "GLASS1";
+		textureeast = "GLASS2";
+		texturewest = "GLASS2";
+	}
+	tile 34
+	{
+		texturenorth = "BLUSKUL1";
+		texturesouth = "BLUSKUL1";
+		textureeast = "BLUSKUL2";
+		texturewest = "BLUSKUL2";
+	}
+	tile 35
+	{
+		texturenorth = "GRYBRIK1";
+		texturesouth = "GRYBRIK1";
+		textureeast = "GRYBRIK2";
+		texturewest = "GRYBRIK2";
+	}
+	tile 36
+	{
+		texturenorth = "BLUSWAS1";
+		texturesouth = "BLUSWAS1";
+		textureeast = "BLUSWAS2";
+		texturewest = "BLUSWAS2";
+	}
+	tile 37
+	{
+		texturenorth = "GRYVENT1";
+		texturesouth = "GRYVENT1";
+		textureeast = "GRYVENT2";
+		texturewest = "GRYVENT2";
+	}
+	tile 38
+	{
+		texturenorth = "BRIKODD1";
+		texturesouth = "BRIKODD1";
+		textureeast = "BRIKODD2";
+		texturewest = "BRIKODD2";
+	}
+	tile 39
+	{
+		texturenorth = "GRYCRAK1";
+		texturesouth = "GRYCRAK1";
+		textureeast = "GRYCRAK2";
+		texturewest = "GRYCRAK2";
+	}
+	tile 40
+	{
+		texturenorth = "BLUWALL1";
+		texturesouth = "BLUWALL1";
+		textureeast = "BLUWALL2";
+		texturewest = "BLUWALL2";
+	}
+	tile 41
+	{
+		texturenorth = "BSTSIGN1";
+		texturesouth = "BSTSIGN1";
+		textureeast = "BSTSIGN2";
+		texturewest = "BSTSIGN2";
+	}
+	tile 42
+	{
+		texturenorth = "MARB1_1";
+		texturesouth = "MARB1_1";
+		textureeast = "MARB1_2";
+		texturewest = "MARB1_2";
+	}
+	tile 43
+	{
+		texturenorth = "GRYMAPS1";
+		texturesouth = "GRYMAPS1";
+		textureeast = "GRYMAPS2";
+		texturewest = "GRYMAPS2";
+	}
+	tile 44
+	{
+		texturenorth = "BRNSTNA1";
+		texturesouth = "BRNSTNA1";
+		textureeast = "BRNSTNA2";
+		texturewest = "BRNSTNA2";
+	}
+	tile 45
+	{
+		texturenorth = "BRNSTNB1";
+		texturesouth = "BRNSTNB1";
+		textureeast = "BRNSTNB2";
+		texturewest = "BRNSTNB2";
+	}
+	tile 46
+	{
+		texturenorth = "MARB2_1";
+		texturesouth = "MARB2_1";
+		textureeast = "MARB2_2";
+		texturewest = "MARB2_2";
+	}
+	tile 47
+	{
+		texturenorth = "MARB3_1";
+		texturesouth = "MARB3_1";
+		textureeast = "MARB3_2";
+		texturewest = "MARB3_2";
+	}
+	tile 48
+	{
+		texturenorth = "PLASTER1";
+		texturesouth = "PLASTER1";
+		textureeast = "PLASTER2";
+		texturewest = "PLASTER2";
+	}
+	tile 49
+	{
+		texturenorth = "GRYHTLR1";
+		texturesouth = "GRYHTLR1";
+		textureeast = "GRYHTLR2";
+		texturewest = "GRYHTLR2";
+	}
+	tile 50
+	{
+		texturenorth = "COBBLEA1";
+		texturesouth = "COBBLEA1";
+		textureeast = "COBBLEA2";
+		texturewest = "COBBLEA2";
+	}
+	tile 51
+	{
+		texturenorth = "COBBLEB1";
+		texturesouth = "COBBLEB1";
+		textureeast = "COBBLEB2";
+		texturewest = "COBBLEB2";
+	}
+	tile 52
+	{
+		texturenorth = "COBFLAG1";
+		texturesouth = "COBFLAG1";
+		textureeast = "COBFLAG2";
+		texturewest = "COBFLAG2";
+	}
+	tile 53
+	{
+		texturenorth = "COBWRTH1";
+		texturesouth = "COBWRTH1";
+		textureeast = "COBWRTH2";
+		texturewest = "COBWRTH2";
+	}
+	tile 54
+	{
+		texturenorth = "BOLDERA1";
+		texturesouth = "BOLDERA1";
+		textureeast = "BOLDERA2";
+		texturewest = "BOLDERA2";
+	}
+	tile 55
+	{
+		texturenorth = "BOLDERB1";
+		texturesouth = "BOLDERB1";
+		textureeast = "BOLDERB2";
+		texturewest = "BOLDERB2";
+	}
+	tile 56
+	{
+		texturenorth = "HELLWAL1";
+		texturesouth = "HELLWAL1";
+		textureeast = "HELLWAL2";
+		texturewest = "HELLWAL2";
+	}
+	tile 57
+	{
+		texturenorth = "GRAYCAV1";
+		texturesouth = "GRAYCAV1";
+		textureeast = "GRAYCAV2";
+		texturewest = "GRAYCAV2";
+	}
+	tile 58
+	{
+		texturenorth = "RAMPRTA1";
+		texturesouth = "RAMPRTA1";
+		textureeast = "RAMPRTA2";
+		texturewest = "RAMPRTA2";
+	}
+	tile 59
+	{
+		texturenorth = "RAMPRTB1";
+		texturesouth = "RAMPRTB1";
+		textureeast = "RAMPRTB2";
+		texturewest = "RAMPRTB2";
+	}
+	tile 60
+	{
+		texturenorth = "ELEV3_1";
+		texturesouth = "ELEV3_1";
+		textureeast = "ELEV3_2";
+		texturewest = "ELEV3_2";
+	}
+	tile 61
+	{
+		texturenorth = "WHITWAL1";
+		texturesouth = "WHITWAL1";
+		textureeast = "WHITWAL2";
+		texturewest = "WHITWAL2";
+	}
+	tile 62
+	{
+		texturenorth = "BRWNVIN1";
+		texturesouth = "BRWNVIN1";
+		textureeast = "BRWNVIN2";
+		texturewest = "BRWNVIN2";
+	}
+	tile 63
+	{
+		texturenorth = "PINKBRK1";
+		texturesouth = "PINKBRK1";
+		textureeast = "PINKBRK2";
+		texturewest = "PINKBRK2";
+	}
+	tile 90
+	{
+		texturenorth = "SLOT1_1";
+		texturesouth = "SLOT1_1";
+		textureeast = "DOOR1_2";
+		texturewest = "DOOR1_2";
+		offsetvertical = true;
+	}
+	tile 91
+	{
+		texturenorth = "DOOR1_1";
+		texturesouth = "DOOR1_1";
+		textureeast = "SLOT1_2";
+		texturewest = "SLOT1_2";
+		offsethorizontal = true;
+	}
+	tile 92
+	{
+		texturenorth = "SLOT1_1";
+		texturesouth = "SLOT1_1";
+		textureeast = "DOOR3_2";
+		texturewest = "DOOR3_2";
+		offsetvertical = true;
+	}
+	tile 93
+	{
+		texturenorth = "DOOR3_1";
+		texturesouth = "DOOR3_1";
+		textureeast = "SLOT1_2";
+		texturewest = "SLOT1_2";
+		offsethorizontal = true;
+	}
+	tile 94
+	{
+		texturenorth = "SLOT1_1";
+		texturesouth = "SLOT1_1";
+		textureeast = "DOOR3_2";
+		texturewest = "DOOR3_2";
+		offsetvertical = true;
+	}
+	tile 95
+	{
+		texturenorth = "DOOR3_1";
+		texturesouth = "DOOR3_1";
+		textureeast = "SLOT1_2";
+		texturewest = "SLOT1_2";
+		offsethorizontal = true;
+	}
+	tile 96
+	{
+		texturenorth = "SLOT1_1";
+		texturesouth = "SLOT1_1";
+		textureeast = "DOOR3_2";
+		texturewest = "DOOR3_2";
+		offsetvertical = true;
+	}
+	tile 97
+	{
+		texturenorth = "DOOR3_1";
+		texturesouth = "DOOR3_1";
+		textureeast = "SLOT1_2";
+		texturewest = "SLOT1_2";
+		offsethorizontal = true;
+	}
+	tile 98
+	{
+		texturenorth = "SLOT1_1";
+		texturesouth = "SLOT1_1";
+		textureeast = "DOOR3_2";
+		texturewest = "DOOR3_2";
+		offsetvertical = true;
+	}
+	tile 99
+	{
+		texturenorth = "DOOR3_1";
+		texturesouth = "DOOR3_1";
+		textureeast = "SLOT1_2";
+		texturewest = "SLOT1_2";
+		offsethorizontal = true;
+	}
+	tile 100
+	{
+		texturenorth = "SLOT1_1";
+		texturesouth = "SLOT1_1";
+		textureeast = "DOOR2_2";
+		texturewest = "DOOR2_2";
+		offsetvertical = true;
+	}
+	tile 101
+	{
+		texturenorth = "DOOR2_1";
+		texturesouth = "DOOR2_1";
+		textureeast = "SLOT1_2";
+		texturewest = "SLOT1_2";
+		offsethorizontal = true;
+	}
+
+	modzone 106 fillzone ambush;
+	modzone 107 changetrigger 3
+	{
+		action = 4;
+		playeruse = true;
+		activatenorth = false;
+		activatesouth = false;
+	}
+
+	zone 108 {}
+	zone 109 {}
+	zone 110 {}
+	zone 111 {}
+	zone 112 {}
+	zone 113 {}
+	zone 114 {}
+	zone 115 {}
+	zone 116 {}
+	zone 117 {}
+	zone 118 {}
+	zone 119 {}
+	zone 120 {}
+	zone 121 {}
+	zone 122 {}
+	zone 123 {}
+	zone 124 {}
+	zone 125 {}
+	zone 126 {}
+	zone 127 {}
+	zone 128 {}
+	zone 129 {}
+	zone 130 {}
+	zone 131 {}
+	zone 132 {}
+	zone 133 {}
+	zone 134 {}
+	zone 135 {}
+	zone 136 {}
+	zone 137 {}
+	zone 138 {}
+	zone 139 {}
+	zone 140 {}
+	zone 141 {}
+	zone 142 {}
+	zone 143 {}
+}
+
+things
+{
+	trigger 98
+	{
+		action = 2;
+		arg1 = 8;
+		arg2 = 2;
+		arg3 = 2;
+		playeruse = true;
+		secret = true;
+	}
+
+	trigger 99
+	{
+		action = 6;
+		playercross = true;
+	}
+
+	// oldnum, newnum, angles, patrol, minskill
+	{19,	1,	4,	0,	0}
+	{23,	33,	0,	0,	0}
+	{24,	34,	0,	0,	0}
+	{25,	35,	0,	0,	0}
+	{26,	36,	0,	0,	0}
+	{27,	37,	0,	0,	0}
+	{28,	38,	0,	0,	0}
+	{29,	39,	0,	0,	0}
+	{30,	40,	0,	0,	0}
+	{31,	41,	0,	0,	0}
+	{32,	42,	0,	0,	0}
+	{33,	82,	0,	0,	0}
+	{34,	44,	0,	0,	0}
+	{35,	45,	0,	0,	0}
+	{36,	46,	0,	0,	0}
+	{37,	47,	0,	0,	0}
+	{38,	83,	0,	0,	0}
+	{39,	49,	0,	0,	0}
+	{40,	50,	0,	0,	0}
+	{41,	51,	0,	0,	0}
+	{42,	52,	0,	0,	0}
+	{43,	53,	0,	0,	0}
+	{44,	54,	0,	0,	0}
+	{45,	84,	0,	0,	0}
+	{46,	56,	0,	0,	0}
+	{47,	57,	0,	0,	0}
+	{48,	58,	0,	0,	0}
+	{49,	59,	0,	0,	0}
+	{50,	60,	0,	0,	0}
+	{51,	61,	0,	0,	0}
+	{52,	62,	0,	0,	0}
+	{53,	63,	0,	0,	0}
+	{54,	64,	0,	0,	0}
+	{55,	65,	0,	0,	0}
+	{56,	66,	0,	0,	0}
+	{57,	71,	0,	0,	0}
+	{58,	68,	0,	0,	0}
+	{59,	69,	0,	0,	0}
+	{60,	70,	0,	0,	0}
+	{61,	67,	0,	0,	0}
+	{62,	72,	0,	0,	0}
+	{63,	85,	0,	0,	0}
+	{64,	74,	0,	0,	0}
+	{65,	75,	0,	0,	0}
+	{66,	76,	0,	0,	0}
+	{67,	86,	0,	0,	0}
+	{68,	87,	0,	0,	0}
+	{69,	88,	0,	0,	0}
+	{70,	80,	0,	0,	0}
+	{71,	89,	0,	0,	0}
+	{72,	90,	0,	0,	0}
+	{73,	91,	0,	0,	0}
+	{74,	92,	0,	0,	0}
+	{90,	10,	8,	0,	0}
+	{106,	28,	0,	HOLOWALL,	0}
+	{107,	27,	0,	HOLOWALL,	0}
+	{108,	11,	4,	HOLOWALL,	1}
+	{112,	11,	4,	PATHING|HOLOWALL,	1}
+	{116,	12,	4,	HOLOWALL,	1}
+	{120,	12,	4,	PATHING|HOLOWALL,	1}
+	{124,	81,	0,	HOLOWALL,	0}
+	{125,	23,	0,	HOLOWALL,	0}
+	{126,	13,	4,	HOLOWALL,	1}
+	{130,	13,	4,	PATHING|HOLOWALL,	1}
+	{134,	14,	4,	HOLOWALL,	1}
+	{138,	14,	4,	PATHING|HOLOWALL,	1}
+	{142,	24,	0,	HOLOWALL,	0}
+	{143,	25,	0,	HOLOWALL,	0}
+	{144,	11,	4,	HOLOWALL,	2}
+	{148,	11,	4,	PATHING|HOLOWALL,	2}
+	{152,	12,	4,	HOLOWALL,	2}
+	{156,	12,	4,	PATHING|HOLOWALL,	2}
+	{160,	18,	0,	HOLOWALL,	0}
+	{161,	26,	0,	HOLOWALL,	0}
+	{162,	13,	4,	HOLOWALL,	2}
+	{166,	13,	4,	PATHING|HOLOWALL,	2}
+	{170,	14,	4,	HOLOWALL,	2}
+	{174,	14,	4,	PATHING|HOLOWALL,	2}
+	{178,	19,	0,	HOLOWALL,	0}
+	{179,	22,	0,	HOLOWALL,	0}
+	{180,	11,	4,	HOLOWALL,	3}
+	{184,	11,	4,	PATHING|HOLOWALL,	3}
+	{188,	12,	4,	HOLOWALL,	3}
+	{192,	12,	4,	PATHING|HOLOWALL,	3}
+	{196,	17,	0,	HOLOWALL,	0}
+	{197,	20,	0,	HOLOWALL,	0}
+	{198,	13,	4,	HOLOWALL,	3}
+	{202,	13,	4,	PATHING|HOLOWALL,	3}
+	{206,	14,	4,	HOLOWALL,	3}
+	{210,	14,	4,	PATHING|HOLOWALL,	3}
+	{214,	16,	0,	HOLOWALL,	0}
+	{215,	21,	0,	HOLOWALL,	0}
+	{216,	15,	4,	HOLOWALL,	1}
+	{220,	15,	4,	PATHING|HOLOWALL,	1}
+	{224,	29,	0,	HOLOWALL,	0}
+	{225,	30,	0,	HOLOWALL,	0}
+	{226,	31,	0,	HOLOWALL,	0}
+	{227,	32,	0,	HOLOWALL,	0}
+	{234,	15,	4,	HOLOWALL,	2}
+	{238,	15,	4,	PATHING|HOLOWALL,	2}
+	{252,	15,	4,	HOLOWALL,	3}
+	{256,	15,	4,	PATHING|HOLOWALL,	3}
+}

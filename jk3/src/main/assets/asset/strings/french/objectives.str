@@ -1,0 +1,408 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "the objectives... duh..."
+
+REFERENCE           LIGHTSIDE_OBJ
+LANG_ENGLISH        "This is set to 2 (failed) if the player has turned Dark Side."
+LANG_FRENCH         "Cette option est réglée sur 2 (échec) si le joueur a basculé du côté obscur de la Force."
+
+REFERENCE           HOTH2_OBJ1
+LANG_ENGLISH        "Investigate the site where Luke had his force vision."
+LANG_FRENCH         "Fouillez le site où Luke a eu sa vision."
+
+REFERENCE           HOTH2_OBJ2
+LANG_ENGLISH        "Find a way into Echo Base."
+LANG_FRENCH         "Entrez dans la base Echo."
+
+REFERENCE           HOTH2_OBJ3
+LANG_ENGLISH        "Find an alternate entrance to Echo Base."
+LANG_FRENCH         "Trouvez une autre entrée de la base Echo."
+
+REFERENCE           HOTH3_OBJ1
+LANG_ENGLISH        "Discover what the Imperials are doing in Echo Base"
+LANG_FRENCH         "Découvrez ce que les Impériaux font dans la base Echo."
+
+REFERENCE           HOTH3_OBJ2
+LANG_ENGLISH        "Make your way to the Hanger Bay to confront Alora."
+LANG_FRENCH         "Rendez-vous au hangar pour affronter Alora."
+
+REFERENCE           HOTH3_OBJ3
+LANG_ENGLISH        "Defeat Alora."
+LANG_FRENCH         "Tentez de vaincre Alora."
+
+REFERENCE           T2_DPREDICAMENT_OBJ1
+LANG_ENGLISH        "Escape the Prison!"
+LANG_FRENCH         "Echappez-vous de la prison !"
+
+REFERENCE           T2_DPREDICAMENT_OBJ2
+LANG_ENGLISH        "Disable security locks from Commander's Office."
+LANG_FRENCH         "Désactivez les verrous de sécurité du bureau du commandant."
+
+REFERENCE           T2_DPREDICAMENT_OBJ3
+LANG_ENGLISH        "Gain access to the Docking Bay."
+LANG_FRENCH         "Accédez au hangar d’arrimage."
+
+REFERENCE           T2_DPREDICAMENT_OBJ4
+LANG_ENGLISH        "Defeat Rax Joris to get your lightsaber back."
+LANG_FRENCH         "Battez Rax Joris et récupérez votre sabre-laser."
+
+REFERENCE           T2_RANCOR_OBJ1
+LANG_ENGLISH        "Infiltrate the Hutt's stronghold and locate the prisoners."
+LANG_FRENCH         "Infiltrez la forteresse du Hutt et retrouvez les prisonniers."
+
+REFERENCE           T2_RANCOR_OBJ2
+LANG_ENGLISH        "Release the prisoners from their cells and guide them to the ventilation pipe for pickup by Kyle."
+LANG_FRENCH         "Libérez les prisonniers et guidez-les dans le conduit d’aération pour que Kyle les récupère."
+
+REFERENCE           T2_RANCOR_OBJ3
+LANG_ENGLISH        "Clear the way to the exit."
+LANG_FRENCH         "Dégagez la sortie."
+
+REFERENCE           T2_RANCOR_OBJ4
+LANG_ENGLISH        "Get back to the access tunnel for extraction."
+LANG_FRENCH         "Retournez au tunnel d’accès où l'on vous attend."
+
+REFERENCE           T2_RANCOR_OBJ6
+LANG_ENGLISH        "Avoid the rancor."
+LANG_FRENCH         "Evitez le Rancor."
+
+REFERENCE           T2_RANCOR_OBJ5
+LANG_ENGLISH        "You have saved %d of %d prisoners."
+LANG_FRENCH         "Vous avez sauvé %d prisonniers sur %d."
+
+REFERENCE           T2_RANCOR_OBJ5_2
+NOTES               "This is called in code if the current number saved is greater than the amount that had to be saved to complete the objective."
+LANG_ENGLISH        "You have saved %d of %d prisoners and %d additional."
+LANG_FRENCH         "Vous avez sauvé %d prisonniers sur %d plus %d autres."
+
+REFERENCE           T2_WEDGE_OBJ1
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Shield Generator building."
+LANG_FRENCH         "Placez les balises dans les endroits cibles."
+
+REFERENCE           T2_WEDGE_OBJ2
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Hangar."
+LANG_FRENCH         "Placez une balise de visée sur le toit."
+
+REFERENCE           T2_WEDGE_OBJ3
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Barracks."
+LANG_FRENCH         "Placez une balise de visée sur le toit."
+
+REFERENCE           T2_WEDGE_OBJ4
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Communications Array."
+LANG_FRENCH         "Placez une balise de visée sur le toit des réseaux de communication."
+
+REFERENCE           T2_WEDGE_OBJ5
+LANG_ENGLISH        "Place a targeting beacon on the Power Generator."
+LANG_FRENCH         "Placez une balise de visée sur le générateur électrique."
+
+REFERENCE           T2_WEDGE_OBJ6
+LANG_ENGLISH        "Place a targeting beacon inside the Command Tower."
+LANG_FRENCH         "Placez une balise de visée dans la tour des commandes."
+
+REFERENCE           T2_WEDGE_OBJ7
+LANG_ENGLISH        "Stop the Imperials from detonating the Tibanna Gas Tanks."
+LANG_FRENCH         "Empêchez les Impériaux de faire sauter les conteneurs de gaz Tibanna."
+
+REFERENCE           T2_WEDGE_OBJ8
+LANG_ENGLISH        "Return to your Ship."
+LANG_FRENCH         "Regagnez votre vaisseau."
+
+REFERENCE           T2_WEDGE_OBJ9
+LANG_ENGLISH        "Disarm the four remaining Bombs on the Tibanna Gas Tanks."
+LANG_FRENCH         "Désamorcez les quatre dernières bombes sur les conteneurs de gaz Tibanna."
+
+REFERENCE           T2_WEDGE_OBJ10
+LANG_ENGLISH        "Disarm the three remaining Bombs on the Tibanna Gas Tanks."
+LANG_FRENCH         "Désamorcez les trois dernières bombes sur les conteneurs de gaz Tibanna."
+
+REFERENCE           T2_WEDGE_OBJ11
+LANG_ENGLISH        "Disarm the two remaining Bombs on the Tibanna Gas Tanks."
+LANG_FRENCH         "Désamorcez les deux dernières bombes sur les conteneurs de gaz Tibanna."
+
+REFERENCE           T2_WEDGE_OBJ12
+LANG_ENGLISH        "Disarm the one remaining Bomb on the Tibanna Gas Tanks."
+LANG_FRENCH         "Désamorcez la dernière bombe sur les conteneurs de gaz Tibanna."
+
+REFERENCE           T3_RIFT_OBJ1
+LANG_ENGLISH        "Tavion's minions are preparing for her arrival. Stop them from desecrating the Jedi Tomb."
+LANG_FRENCH         "Les larbins de Tavion préparent son arrivée. Empêchez-les de profaner le tombeau Jedi."
+
+REFERENCE           T3_RIFT_OBJ2
+LANG_ENGLISH        "Defeat the Jedi and find a way to protect the Jedi Master's coffin."
+LANG_FRENCH         "Battez le Jedi et trouvez un moyen de protéger le cercueil du Maître Jedi."
+
+REFERENCE           T3_RIFT_OBJ3
+LANG_ENGLISH        "Escape from the tomb."
+LANG_FRENCH         "Echappez-vous du tombeau."
+
+REFERENCE           T1_DANGER_OBJ1
+LANG_ENGLISH        "Find and bring back to your ship an Energy Cell."
+LANG_FRENCH         "Trouvez une cellule énergétique et ramenez-la sur votre vaisseau."
+
+REFERENCE           T1_DANGER_OBJ2
+LANG_ENGLISH        "Find and bring back to your ship a Power Coupling."
+LANG_FRENCH         "Trouvez un couplage et ramenez-le sur votre vaisseau."
+
+REFERENCE           T1_DANGER_OBJ3
+LANG_ENGLISH        "Find and bring back to your ship a Damper."
+LANG_FRENCH         "Trouvez un amortisseur et ramenez-le sur votre vaisseau."
+
+REFERENCE           T1_DANGER_OBJ4
+LANG_ENGLISH        "Find and bring back to your ship a Power Converter."
+LANG_FRENCH         "Trouvez un convertisseur et ramenez-le sur votre vaisseau."
+
+REFERENCE           T1_DANGER_OBJ5
+LANG_ENGLISH        "Only one ship part may be carried at a time.  Return a part to the ship in order to retrieve another."
+LANG_FRENCH         "Vous ne pouvez transporter qu'une pièce à la fois. Rapportez une pièce au vaisseau afin d'en récupérer une autre."
+
+REFERENCE           T3_BOUNTY_OBJ1
+LANG_ENGLISH        "Destroy all Weapon Caches."
+LANG_FRENCH         "Détruisez toutes les caches d’armes."
+
+REFERENCE           T3_BOUNTY_OBJ2
+LANG_ENGLISH        "Return to your Ship."
+LANG_FRENCH         "Retournez à votre vaisseau."
+
+REFERENCE           T3_BOUNTY_OBJ3
+LANG_ENGLISH        "Six Weapon Caches left."
+LANG_FRENCH         "Encore six caches d’armes."
+
+REFERENCE           T3_BOUNTY_OBJ4
+LANG_ENGLISH        "Five Weapon Caches left."
+LANG_FRENCH         "Encore cinq caches d’armes."
+
+REFERENCE           T3_BOUNTY_OBJ5
+LANG_ENGLISH        "Four Weapon Caches left."
+LANG_FRENCH         "Encore quatre caches d’armes."
+
+REFERENCE           T3_BOUNTY_OBJ6
+LANG_ENGLISH        "Three Weapon Caches left."
+LANG_FRENCH         "Encore trois caches d’armes."
+
+REFERENCE           T3_BOUNTY_OBJ7
+LANG_ENGLISH        "Two Weapon Caches left."
+LANG_FRENCH         "Encore deux caches d’armes."
+
+REFERENCE           T3_BOUNTY_OBJ8
+LANG_ENGLISH        "One Weapon Cache left."
+LANG_FRENCH         "Plus qu’une cache d’armes."
+
+REFERENCE           T3_BOUNTY_OBJ9
+LANG_ENGLISH        "Defeat Boba Fett to get out of this\none alive."
+LANG_FRENCH         "Battez Boba Fett pour sortir\nde là en vie."
+
+REFERENCE           T2_ROGUE_OBJ1
+LANG_ENGLISH        "Capture Lannik Racto."
+LANG_FRENCH         "Capturez Lannik Racto."
+
+REFERENCE           T2_ROGUE_OBJ2
+LANG_ENGLISH        "Gain access to Racto's office building."
+LANG_FRENCH         "Accédez à l'immeuble du bureau de Racto."
+
+REFERENCE           T2_TRIP_OBJ1
+LANG_ENGLISH        "Meet the contact at his outpost."
+LANG_FRENCH         "Rencontrez le contact à son avant-poste."
+
+REFERENCE           T2_TRIP_OBJ2
+LANG_ENGLISH        "Escape from the mercenaries and make your way to the far city gate."
+LANG_FRENCH         "Echappez aux mercenaires et atteignez les portes de la ville."
+
+REFERENCE           T3_BYSS_OBJ1
+LANG_ENGLISH        "Disable the tractor beam holding the Raven's Claw in place."
+LANG_FRENCH         "Désactivez le rayon tracteur qui cloue le Raven's Claw sur place."
+
+REFERENCE           T3_BYSS_OBJ2
+LANG_ENGLISH        "Use the laser turrets at the top of the ship to hold off the attacking TIE fighters"
+LANG_FRENCH         "Utilisez les tourelles laser en haut du vaisseau pour résister aux chasseurs TIE."
+
+REFERENCE           T3_BYSS_OBJ3
+LANG_ENGLISH        "Get back to your Ship."
+LANG_FRENCH         "Regagnez votre vaisseau."
+
+REFERENCE           T3_HEVIL_OBJ1
+LANG_ENGLISH        "Reach the top of the tower where the cloaking emitter is located."
+LANG_FRENCH         "Atteignez le sommet de la tour, où se trouve l'émetteur de camouflage."
+
+REFERENCE           T3_HEVIL_OBJ2
+LANG_ENGLISH        "Set the detonator charges to destroy the Cloak Generator."
+LANG_FRENCH         "Désactivez le dispositif de camouflage."
+
+REFERENCE           T3_HEVIL_OBJ3
+LANG_ENGLISH        "Defeat the Noghri guardians."
+LANG_FRENCH         "Abattez les gardes Noghri."
+
+REFERENCE           T3_STAMP_OBJ1
+LANG_ENGLISH        "Defeat the cultists."
+LANG_FRENCH         "Tentez de vaincre les Disciples."
+
+REFERENCE           T3_STAMP_OBJ2
+LANG_ENGLISH        "Find a way to stop the mutated rancor.  Weapons are useless against it."
+LANG_FRENCH         "Trouvez un moyen d'arrêter le Rancor mutant. Les armes sont sans effet sur lui."
+
+REFERENCE           T3_STAMP_OBJ3
+LANG_ENGLISH        "Place a new crate over the conveyor belt to trap the mutant rancor."
+LANG_FRENCH         "Placez une autre caisse sur le tapis roulant pour piéger le Rancor mutant."
+
+REFERENCE           T3_STAMP_OBJ4
+LANG_ENGLISH        "Trap the mutant rancor on the conveyor belt by using the hanging crate."
+LANG_FRENCH         "Piégez le Rancor mutant sur le tapis roulant à l'aide de la caisse suspendue."
+
+REFERENCE           TASPIR1_OBJ1
+LANG_ENGLISH        "Gain access to the Imperial Power facility."
+LANG_FRENCH         "Accédez au bâtiment électrique impérial. "
+
+REFERENCE           TASPIR1_OBJ2
+LANG_ENGLISH        "Extend the bridge and heat shields leading to the Security Override controls."
+LANG_FRENCH         "Déployez le pont et les boucliers thermiques qui mènent aux commandes de sécurité."
+
+REFERENCE           TASPIR1_OBJ3
+LANG_ENGLISH        "Enable power to the main walkway by using the Security Override controls."
+LANG_FRENCH         "Activez la passerelle principale à l'aide des commandes de sécurité."
+
+REFERENCE           TASPIR1_OBJ4
+LANG_ENGLISH        "Extend the main walkway to the Imperial Power facility."
+LANG_FRENCH         "Déployez la passerelle principale menant au bâtiment électrique impérial."
+
+REFERENCE           TASPIR2_OBJ1
+LANG_ENGLISH        "Find Rosh Penin."
+LANG_FRENCH         "Trouvez Rosh Penin."
+
+REFERENCE           TASPIR2_OBJ2
+LANG_ENGLISH        "Defeat Alora."
+LANG_FRENCH         "Tentez de vaincre Alora."
+
+REFERENCE           VJUN1_OBJ1
+LANG_ENGLISH        "Make your way to Bast Castle through the acidic rain."
+LANG_FRENCH         "Accédez au château de Bast malgré les pluies acides."
+
+REFERENCE           VJUN1_OBJ2
+LANG_ENGLISH        "Find a way to the emplaced gun and use it to destroy the Tie-Bombers."
+LANG_FRENCH         "Accédez à l'arme fixe et utilisez-la pour détruire les bombardiers Tie."
+
+REFERENCE           VJUN2_OBJ1
+LANG_ENGLISH        "Find a way into the upper parts of the Castle."
+LANG_FRENCH         "Accédez aux étages supérieurs du château."
+
+REFERENCE           VJUN3_OBJ1
+LANG_ENGLISH        "Investigate Cult activities."
+LANG_FRENCH         "Enquêtez sur les activités du culte."
+
+REFERENCE           YAVIN1_OBJ1
+LANG_ENGLISH        "Make your way to the Massassi Temple with Rosh."
+LANG_FRENCH         "Trouvez le temple Massassi avec Rosh."
+
+REFERENCE           YAVIN1_OBJ2
+LANG_ENGLISH        "Find a way to rescue Rosh from the ledge he is on."
+LANG_FRENCH         "Trouvez un moyen de secourir Rosh qui est en mauvaise posture."
+
+REFERENCE           YAVIN2_OBJ1
+LANG_ENGLISH        "Complete the Training Course."
+LANG_FRENCH         "Terminez l'entraînement."
+
+REFERENCE           T1_FATAL_OBJ1
+LANG_ENGLISH        "Disarm the 5 bombs the Imperials have placed."
+LANG_FRENCH         "Désamorcez les 5 bombes posées par les Impériaux."
+
+REFERENCE           T1_FATAL_OBJ2
+LANG_ENGLISH        "Disarm the last 4 bombs."
+LANG_FRENCH         "Désamorcez les 4 dernières bombes."
+
+REFERENCE           T1_FATAL_OBJ3
+LANG_ENGLISH        "Disarm the last 3 bombs."
+LANG_FRENCH         "Désamorcez les 3 dernières bombes."
+
+REFERENCE           T1_FATAL_OBJ4
+LANG_ENGLISH        "Disarm the last 2 bombs."
+LANG_FRENCH         "Désamorcez les 2 dernières bombes."
+
+REFERENCE           T1_FATAL_OBJ5
+LANG_ENGLISH        "Disarm the last bomb."
+LANG_FRENCH         "Désamorcez la dernière bombe."
+
+REFERENCE           T1_FATAL_OBJ6
+LANG_ENGLISH        "Get back to your ship."
+LANG_FRENCH         "Regagnez votre vaisseau."
+
+REFERENCE           KOR1_OBJ1
+LANG_ENGLISH        "Find a way through the Sith Catacombs to the Valley floor."
+LANG_FRENCH         "Traversez les catacombes sith pour atteindre la Vallée."
+
+REFERENCE           KOR1_OBJ2
+LANG_ENGLISH        "Find a way to open the door to the valley."
+LANG_FRENCH         "Trouvez un moyen d'ouvrir la porte de la Vallée."
+
+REFERENCE           KOR2_OBJ1
+LANG_ENGLISH        "Navigate the ancient ruins and enter the Tomb of Ragnos."
+LANG_FRENCH         "Traversez les ruines et entrez dans la tombe de Ragnos."
+
+REFERENCE           KOR2_OBJ2
+LANG_ENGLISH        "Stop Tavion from resurrecting Marka Ragnos."
+LANG_FRENCH         "Empêchez Tavion de ressusciter Marka Ragnos."
+
+REFERENCE           KOR2_OBJ3
+LANG_ENGLISH        "Defeat Tavion/Ragnos."
+LANG_FRENCH         "Tentez de vaincre Tavion/Ragnos."
+
+REFERENCE           KOR2_OBJ4
+LANG_ENGLISH        "Defeat Kyle Katarn."
+LANG_FRENCH         "Tentez de vaincre Kyle Katarn."
+
+REFERENCE           T1_RAIL_OBJ1
+LANG_ENGLISH        "Make your way to the front of the tram."
+LANG_FRENCH         "Atteignez l'avant du tram."
+
+REFERENCE           T1_RAIL_OBJ2
+LANG_ENGLISH        "Disarm the bomb."
+LANG_FRENCH         "Désamorcez la bombe."
+
+REFERENCE           T1_RAIL_OBJ3
+LANG_ENGLISH        "Stop the tram from reaching the station."
+LANG_FRENCH         "Empêchez le tram d'atteindre la station."
+
+REFERENCE           T1_SOUR_OBJ1
+LANG_ENGLISH        "Eliminate the mercenary threat."
+LANG_FRENCH         "Eliminez la menace mercenaire."
+
+REFERENCE           T1_SOUR_OBJ2
+LANG_ENGLISH        "Disable the tractor beams holding the Raven's Claw."
+LANG_FRENCH         "Désactivez le rayon tracteur qui paralyse le Raven's Claw."
+
+REFERENCE           T1_SOUR_OBJ3
+LANG_ENGLISH        "Disable the tractor beams holding the Millennium Falcon."
+LANG_FRENCH         "Désactivez le rayon tracteur qui paralyse le Millennium Falcon."
+
+REFERENCE           T1_SOUR_OBJ4
+LANG_ENGLISH        "Get back to the Millenium Falcon."
+LANG_FRENCH         "Regagnez le Millennium Falcon."
+
+REFERENCE           T1_SURPRISE_OBJ1
+LANG_ENGLISH        "Locate the missing Sandcrawler."
+LANG_FRENCH         "Localisez le char des sables manquant."
+
+REFERENCE           T1_SURPRISE_OBJ2
+LANG_ENGLISH        "Eliminate the Tusken Raiders."
+LANG_FRENCH         "Eliminez les hommes des sables."
+
+REFERENCE           T1_SURPRISE_OBJ3
+LANG_ENGLISH        "Retrieve the droid from the Sandcrawler."
+LANG_FRENCH         "Récupérez le droïde du char des sables."
+
+REFERENCE           T1_SURPRISE_OBJ4
+LANG_ENGLISH        "Prevent the droid from being destroyed."
+LANG_FRENCH         "Empêchez que le droïde ne soit détruit."
+
+
+ENDMARKER
+
+

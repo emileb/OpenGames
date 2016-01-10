@@ -1,0 +1,85 @@
+v2.1.2
+Fixed for devices with an Intel CPU
+----
+v2.1.1
+Fixed setup menu not showing
+----
+v2.1
+*Amazon release
+----
+v2.0.1
+*Fixed subtitles
+*Fixed Sheath/Unsheath Saber for Gamepads
+----
+v2.0
+*New touch screen graphics
+*Added texture compression when Texture Detail is above Medium
+*Removed Texture Detail restriction, can now be 'Very High'. This will increase load times by a lot if used!
+----
+v1.6.2
+*Fixed Add/Remove buttons broken in last update
+----
+v1.6.1
+*Added option to use SDCard in KitKat
+*Fix for those with Lucky Patcher
+----
+v1.6
+*Added menu gamepad controls (does not full work, but escape should work)
+*Removed unused OpenSSL lib, requirement by Google
+----
+v1.5
+*Added Immersion Mode for KitKat
+----
+v1.4.1
+*Fix for people who have a hacked Google Play app
+----
+v1.4
+*Added custom touch screen quick keys (F1 to F4). See description
+*Hide/show touch screen buttons with long-press
+*Added Sheath/Unsheath Saber for Gamepads
+----
+v1.3.3
+*Fixed so MODs show up in the mod menu (see setup) properly
+*Fixed Gamepad force buttons
+----
+v1.3.2a
+*Automatically 'walk' at slow speeds - fixes run animation and reduces foot steps noise.
+*Re-done keyboard input system - fixed 'Backspace' in console.
+*Added 'Online' tab 
+fix a - Fixed update
+----
+v1.3.1
+*Fixed rare crash when starting new or loading a game after last upgrade.
+*Fixed double-tap Use
+*Added double-tap Use Force
+---
+v1.3
+*Added new quick Force selection interface
+*Auto scale look sensitivity with Zoom so sniper gun is now usable.
+*Added Camera button to switch between 3rd and 1st person (Press INV)
+*Added force actions to Gamepad buttons
+*Stopped "Delete Save Game" button working - too easy to accidently hit
+*Hopefully fix rare bug where move and look get swapped temporarily.
+*Fixed crash on Yavin Swamp (sorry!)
+----
+v1.2
+(Applied ptitSeb fixes properly...)
+*Fixed serious graphic issues (seen in trees and bushes causing slow down)
+*Improved frame rate (up to 50% in some cases) 
+*Fixed serious sound issues (hear sounds which are far away).
+*Fixed so dynamic lights works
+*Bug fix which caused crash when starting level
+----
+v1.1.2
+*Added missing Saber Style button
+*Fixed alt fire for gamepads
+*Fixed hiding settings button (cog) with gamepad
+----
+v1.1.1
+*Fix crash issue for those who want to use Highest graphic settings :)
+----
+v1.1
+*Auto update JK data files asset if needed
+*Bug fix
+----
+v1.0 Initial Released

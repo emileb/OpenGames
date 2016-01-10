@@ -1,0 +1,26 @@
+!default 0755 root bin
+i pkginfo
+i copyright
+i depend
+i postinstall
+i postremove
+i preinstall
+i preremove
+d none quake2 0755
+f none quake2/quake2=/tmp/quake2-build/quake2-iDquake2-release/quake2 0755
+d none quake2/baseq2 0755
+f none quake2/baseq2/gamesparc.so=/tmp/quake2-build/quake2-iDquake2-release/baseq2/gamesparc.so 0755
+f none quake2/README=/tmp/quake2-build/quake2-iDquake2-release/README 0644
+f none quake2/README.Solaris=/tmp/quake2-build/quake2-iDquake2-release/README.Solaris 0644
+f none quake2/q2_x11.sh=/tmp/quake2-build/quake2-iDquake2-release/q2_x11.sh 0755
+f none quake2/q2_xil.sh=/tmp/quake2-build/quake2-iDquake2-release/q2_xil.sh 0755
+f none quake2/q2_glx.sh=/tmp/quake2-build/quake2-iDquake2-release/q2_glx.sh 0755
+f none quake2/q2ded=/tmp/quake2-build/quake2-iDquake2-release/q2ded 0755
+d none quake2/ctf 0755
+f none quake2/ctf/gamesparc.so=/tmp/quake2-build/quake2-iDquake2-release/ctf/gamesparc.so 0755
+f none quake2/sdlquake2=/tmp/quake2-build/quake2-iDquake2-release/sdlquake2 0755
+f none quake2/ref_softx.so=/tmp/quake2-build/quake2-iDquake2-release/ref_softx.so 0755
+f none quake2/ref_glx.so=/tmp/quake2-build/quake2-iDquake2-release/ref_glx.so 0755
+f none quake2/ref_softsdl.so=/tmp/quake2-build/quake2-iDquake2-release/ref_softsdl.so 0755
+f none quake2/ref_sdlgl.so=/tmp/quake2-build/quake2-iDquake2-release/ref_sdlgl.so 0755
+f none quake2/ref_xil.so=/tmp/quake2-build/quake2-iDquake2-release/ref_xil.so 0755

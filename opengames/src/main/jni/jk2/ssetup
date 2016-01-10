@@ -1,0 +1,19 @@
+tr_backend.cpp: GL_Bind has check for hacks, stops bind (ufile_fail || rsa_key_fail || setup_not_run_fail)
+
+tr_backend.cpp: RB_SwapBuffersw  make screen GREEN  when (hash_fail)
+
+frameControls does check for hacks and turns screen red (ufile_fail || rsa_key_fail || setup_not_run_fail)
+
+touchEvent does check and stops touch screen working (ufile_fail || rsa_key_fail || setup_not_run_fail)
+
+common.cpp Com_Frame added ufile and rsa check after 5 minutes, sets 'break_scene' which stops rendering of scene in tr_main.cpp
+
+Also checks data in the above function for Beta timeout
+
+JK3 and JK2:
+CRC test in cl_inpit.cpp uses ssetup
+
+JK2:
+Game made invisible.
+
+g_weapons.cpp  built in crc check in weapon fire, break weapon after 64 shots on bad crc of main SO.

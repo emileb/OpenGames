@@ -1,0 +1,65 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           24KYK001
+LANG_ENGLISH        "This should be easy.  Just plant some charges, watch the fireworks, and come home.  What can go wrong?"
+LANG_FRENCH         "Rien de plus facile. Placez les quelques bombes, regardez l'explosion et rentrez. Où est le problème ?"
+
+REFERENCE           24JAK001
+NOTES               "(to himself, shrugging at how easy it was to find it)"
+LANG_ENGLISH        "Hunh, there's some of the weapons."
+LANG_FRENCH         "Hé ben, en voilà des armes."
+
+REFERENCE           24JAK002
+NOTES               "(starstruck and scared at the same time)"
+LANG_ENGLISH        "Boba Fett!"
+LANG_FRENCH         "Boba Fett !"
+
+REFERENCE           24BOF001
+LANG_ENGLISH        "This doesn't concern you, Jedi.  Just walk away."
+LANG_FRENCH         "Ca ne te concerne pas Jedi. Va-t-en."
+
+REFERENCE           24JAK003
+LANG_ENGLISH        "Look, I can't do that..."
+LANG_FRENCH         "Ecoutez, je ne peux pas faire ça..."
+
+REFERENCE           24JAK004
+NOTES               "(to himself, mockingly)"
+LANG_ENGLISH        "What can go wrong?"
+LANG_FRENCH         "Où est le problème ?"
+
+REFERENCE           24JAK005
+NOTES               "(to himself, during combat)"
+LANG_ENGLISH        "Just my luck.  Boba Fett."
+LANG_FRENCH         "C'est mon jour de chance. Boba Fett."
+
+REFERENCE           24JAK006
+NOTES               "(to himself, during combat)"
+LANG_ENGLISH        "How many gadgets does he have in that suit?"
+LANG_FRENCH         "Et il en a beaucoup des gadgets comme ça ?"
+
+REFERENCE           24JAK007
+NOTES               "(yelling to Boba Fett during combat)"
+LANG_ENGLISH        "Can't we talk about this?!"
+LANG_FRENCH         "On ne pourrait pas plutôt discuter ?!"
+
+REFERENCE           24BOF002
+LANG_ENGLISH        " "
+LANG_FRENCH         " "
+
+
+ENDMARKER
+
+

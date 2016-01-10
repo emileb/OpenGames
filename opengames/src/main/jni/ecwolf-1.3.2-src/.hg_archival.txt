@@ -1,0 +1,4 @@
+repo: 1aac403fed772a01bf0b05844a0b426da7ce2229
+node: f90f4c4da35881a581139fde6c74a84076083112
+branch: maint
+tag: 1.3.2

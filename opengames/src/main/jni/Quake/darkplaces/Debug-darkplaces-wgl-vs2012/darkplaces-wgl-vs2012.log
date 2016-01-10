@@ -1,0 +1,120 @@
+﻿Build started 07/06/2013 18:07:04.
+     1>Project "C:\Temp\darkplaces\darkplaces-wgl-vs2012.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D SUPPORTDIRECTX /D SUPPORTD3D /D _FILE_OFFSET_BITS=64 /D __KERNEL_STRICT_NAMES /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug-darkplaces-wgl-vs2012\\" /Fd"Debug-darkplaces-wgl-vs2012\vc110.pdb" /Gd /TP /wd4706 /wd4127 /wd4100 /wd4055 /wd4054 /wd4244 /wd4305 /wd4702 /wd4201 /wd4611 /analyze- /errorReport:prompt bih.c builddate.c cap_avi.c cap_ogg.c cd_shared.c cd_win.c cl_collision.c cl_demo.c cl_dyntexture.c cl_input.c cl_main.c cl_parse.c cl_particles.c cl_screen.c cl_video.c clvm_cmds.c cmd.c collision.c common.c console.c crypto.c csprogs.c curves.c cvar.c dpsoftrast.c dpvsimpledecode.c filematch.c fractalnoise.c fs.c ft2.c gl_backend.c gl_draw.c gl_rmain.c gl_rsurf.c gl_textures.c hmac.c host.c host_cmd.c image.c image_png.c jpeg.c keys.c lhnet.c libcurl.c mathlib.c matrixlib.c mdfour.c menu.c meshqueue.c mod_skeletal_animatevertices_generic.c mod_skeletal_animatevertices_sse.c model_alias.c model_brush.c model_shared.c model_sprite.c mvm_cmds.c netconn.c palette.c polygon.c portals.c protocol.c prvm_cmds.c prvm_edict.c prvm_exec.c r_explosion.c r_lightning.c r_modules.c r_shadow.c r_sky.c r_sprites.c sbar.c snd_main.c snd_mem.c snd_mix.c snd_modplug.c snd_ogg.c snd_wav.c snd_win.c sv_demo.c sv_main.c sv_move.c sv_phys.c sv_user.c svbsp.c svvm_cmds.c sys_shared.c sys_win.c thread_win.c utf8lib.c vid_shared.c vid_wgl.c view.c wad.c world.c zone.c
+         zone.c
+         world.c
+         wad.c
+         view.c
+         vid_wgl.c
+         vid_shared.c
+     1>c:\temp\darkplaces\vid_shared.c(1031): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\temp\darkplaces\vid_shared.c(1032): warning C4804: '<' : unsafe use of type 'bool' in operation
+     1>c:\temp\darkplaces\vid_shared.c(1036): warning C4804: '>=' : unsafe use of type 'bool' in operation
+         utf8lib.c
+         thread_win.c
+         sys_win.c
+         sys_shared.c
+         svvm_cmds.c
+         svbsp.c
+         sv_user.c
+         sv_phys.c
+         sv_move.c
+         sv_main.c
+         sv_demo.c
+         snd_win.c
+         snd_wav.c
+         snd_ogg.c
+         Generating Code...
+         Compiling...
+         snd_modplug.c
+         snd_mix.c
+         snd_mem.c
+         snd_main.c
+     1>c:\temp\darkplaces\snd_main.c(1698): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         sbar.c
+         r_sprites.c
+         r_sky.c
+         r_shadow.c
+         r_modules.c
+         r_lightning.c
+         r_explosion.c
+         prvm_exec.c
+         prvm_edict.c
+         prvm_cmds.c
+         protocol.c
+         portals.c
+         polygon.c
+         palette.c
+         netconn.c
+         mvm_cmds.c
+         Generating Code...
+         Compiling...
+         model_sprite.c
+         model_shared.c
+         model_brush.c
+         model_alias.c
+         mod_skeletal_animatevertices_sse.c
+         mod_skeletal_animatevertices_generic.c
+         meshqueue.c
+         menu.c
+         mdfour.c
+         matrixlib.c
+         mathlib.c
+         libcurl.c
+         lhnet.c
+         keys.c
+         jpeg.c
+         image_png.c
+         image.c
+         host_cmd.c
+         host.c
+         hmac.c
+         Generating Code...
+         Compiling...
+         gl_textures.c
+         gl_rsurf.c
+         gl_rmain.c
+     1>c:\temp\darkplaces\gl_rmain.c(1091): warning C4804: '>=' : unsafe use of type 'bool' in operation
+     1>c:\temp\darkplaces\gl_rmain.c(1101): warning C4804: '>=' : unsafe use of type 'bool' in operation
+     1>c:\temp\darkplaces\gl_rmain.c(1505): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+         gl_draw.c
+         gl_backend.c
+         ft2.c
+         fs.c
+         fractalnoise.c
+         filematch.c
+         dpvsimpledecode.c
+         dpsoftrast.c
+         cvar.c
+         curves.c
+         csprogs.c
+         crypto.c
+         console.c
+         common.c
+         collision.c
+         cmd.c
+         clvm_cmds.c
+         Generating Code...
+         Compiling...
+         cl_video.c
+         cl_screen.c
+         cl_particles.c
+         cl_parse.c
+         cl_main.c
+         cl_input.c
+         cl_dyntexture.c
+         cl_demo.c
+         cl_collision.c
+         cd_win.c
+         cd_shared.c
+         cap_ogg.c
+         cap_avi.c
+         builddate.c
+         bih.c
+         Generating Code...
+     1>Done Building Project "C:\Temp\darkplaces\darkplaces-wgl-vs2012.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:32.61

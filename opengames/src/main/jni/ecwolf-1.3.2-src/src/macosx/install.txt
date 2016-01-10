@@ -1,0 +1,8 @@
+set(EXTRA_FILES ${EXTRA_FILES} macosx/icon.icns)
+set(MACOSX_BUNDLE_ICON_FILE icon.icns)
+set_source_files_properties(${CMAKE_CURRENT_SOURCE_DIR}/macosx/icon.icns PROPERTIES MACOSX_PACKAGE_LOCATION Resources)
+
+string(REPLACE "-framework Cocoa" "" DIRS ${SDL_LIBRARY})
+
+install(FILES ${OUTPUT_DIR}/ecwolf.pk3 DESTINATION ${OUTPUT_DIR}/ecwolf.app/Contents/MacOS COMPONENT Runtime)
+install(CODE "include(BundleUtilities)\nfixup_bundle(\"${OUTPUT_DIR}/ecwolf.app\" \"\" \"${DIRS}\")" COMPONENT Runtime)

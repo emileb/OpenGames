@@ -1,0 +1,10 @@
+r_polygonoffset_submodel_offset to fix 16bit depth buffer on Tegra devices
+
+Slow down:
+gl_rmain.c:
+R_DrawWorldSurfaces
+
+calls ...
+
+gl_rsurf.c
+R_BuildLightMap does loads of uploadtexture calls

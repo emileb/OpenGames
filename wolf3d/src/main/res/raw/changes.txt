@@ -1,0 +1,48 @@
+v1.6
+*First Amazon release
+*Updated to ECWolf v1.3.2
+----
+v1.5
+*Updated to ECWolf v1.3.1
+*Fixed FPS issues (thanks Blzut3)
+*Removed 'ads', replaced with button
+----
+v1.4.1
+*Added option to increase FPS (will cause graphic issue for some)
+---
+v1.4
+*Updated touch controls graphics
+*Due to popular demand - Cheats now accessible! (See Google Play description)
+*Fixed for Android 5.0
+----
+v1.3.1
+*Added run toggle button
+*Fixed to loading of save games from v1.2.2 of app
+----
+v1.3
+*Updated to ECWolf v1.3 - many updates and fixes
+*Select Spear Of Destiny mission packs
+*Removed unused OpenSSL lib, requirement by Google
+----
+v1.2.2
+*Fixed bug where it would crash the device if minimised and relaunched when using 640x480.
+*Added Jedi Academy icon
+----
+v1.2.1
+*Fixed bug where you needed and extra space at end to get Args working.
+*Fix crash at startup for some devices
+*Added Jedi Knight 2 icon
+----
+v1.2
+*Option for high and low resolution
+*Fixed black screen issue (hopefully this time!)
+---
+v1.1
+*Fixed resolution to widescreen
+*Fixed in game menu
+*Possibly fixed black screen for some people 
+----
+v1.0.1
+*Fix stuttering sound for some people
+----
+v1.0 Initial Released

@@ -1,0 +1,4 @@
+include ':opengames', ':doom', ':quake2', ':testplatform', ':wolf3d', ':rtcw', ':quake', ':blakestone', ':abuse', ':jk2', ':jk3'
+
+include ':touchcontrols'
+project(':touchcontrols').projectDir = new File(settingsDir,"/../TouchControls/touchcontrols")

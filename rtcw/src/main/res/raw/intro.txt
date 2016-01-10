@@ -1,0 +1,11 @@
+Thank you for purchasing Return To Castle Wolfenstein Touch.
+
+Please copy your PAK0.PK3, SP_PAK1.PK3 and SP_PAK2.PK3 to:
+/sdcard/Beloko/RTCW/FULL/main/
+from your copy of RTCW.
+
+You can change the folder location in the OPTIONS tab. 
+
+If you like this app please consider leaving a review on Amazon!
+
+If you have any issues please contact us at support@beloko.com.

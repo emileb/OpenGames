@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# @(#)postinstall	$Id: postinstall 165 2004-09-21 12:55:11Z coyote $
+#
+# postinstall script for quake2
+
+quake2_dir=$BASEDIR/quake2
+dest_dir=${PKG_INSTALL_ROOT}/usr/local/bin
+
+if [ -d ${dest_dir} ]; then
+	for inst_script in q2_x11.sh q2_xil.sh q2_glx.sh
+	do
+		dest_script=${dest_dir}/${inst_script}
+		if [ ! -h ${dest_script} ]; then
+			ln -s ${quake2_dir}/${inst_script} ${dest_script}
+		fi
+	done
+fi
+
+exit 0
+

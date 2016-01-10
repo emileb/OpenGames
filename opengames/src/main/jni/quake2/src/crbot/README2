@@ -1,0 +1,26 @@
+WHAT IS IT
+==========
+
+CRBot sources put into the public domain by Mike Malakhov in
+May 2000, currently located at http://crbot.nikto.net/
+
+read ./README for more!
+
+
+ENVIRONMENT
+===========
+
+this goes into the "src" folder in your "crbot" folder in your
+"quake2" folder.
+
+Windows:
+
+compile with lcc - run with quake2-3.20
+compile with visual studio not tested for this release
+
+Linux:
+
+compile with gcc - run with quake2-3.21 (from cvs.icculus.org)
+quake2-3.20, same as normal ctf, broken on Linux
+
+/dub Mon Jän 21 02:03:54 CET 2002

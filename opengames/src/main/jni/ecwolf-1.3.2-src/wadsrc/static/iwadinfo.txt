@@ -1,0 +1,58 @@
+IWad
+{
+	Name = "Super 3D Noah's Ark"
+	Mapinfo = "mapinfo/noah.txt"
+	MustContain = "ZZZSA0"
+	Game = "Noah"
+}
+
+IWad
+{
+	Name = "Spear of Destiny"
+	Mapinfo = "mapinfo/spear.txt"
+	MustContain = "BACKDROP", "ENDSCR1"
+	Game = "Wolf3D"
+}
+
+IWad
+{
+	Name = "Wolfenstein 3D Shareware"
+	Mapinfo = "mapinfo/wolf3d.txt"
+	MustContain = "BJPIC", "VISACARD"
+	Game = "Wolf3D"
+}
+
+IWad
+{
+	Name = "Spear of Destiny Demo"
+	Mapinfo = "mapinfo/speardemo.txt"
+	MustContain = "BACKDROP"
+	Game = "Wolf3D"
+}
+
+IWad
+{
+	Name = "Wolfenstein 3D"
+	Mapinfo = "mapinfo/wolf3d.txt"
+	MustContain = "BJPIC"
+	Flags = Registered, HelpHack
+	Game = "Wolf3D"
+}
+
+IWad
+{
+	Name = "Mission 2: Return to Danger"
+	Required = "Spear of Destiny"
+	Mapinfo = "mapinfo/danger.txt"
+	MustContain = "GHULA0"
+	Game = "Wolf3D"
+}
+
+IWad
+{
+	Name = "Mission 3: Ultimate Challenge"
+	Required = "Spear of Destiny"
+	Mapinfo = "mapinfo/challenge.txt"
+	MustContain = "MISTA0"
+	Game = "Wolf3D"
+}

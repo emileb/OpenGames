@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\ANDROID\SOFTWARE_AS\AS_1.5b\gradle\gradle-2.4" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/abuse" />
+            <option value="$PROJECT_DIR$/blakestone" />
+            <option value="$PROJECT_DIR$/doom" />
+            <option value="$PROJECT_DIR$/jk2" />
+            <option value="$PROJECT_DIR$/jk3" />
+            <option value="$PROJECT_DIR$/opengames" />
+            <option value="$PROJECT_DIR$/quake" />
+            <option value="$PROJECT_DIR$/quake2" />
+            <option value="$PROJECT_DIR$/rtcw" />
+            <option value="$PROJECT_DIR$/testplatform" />
+            <option value="$PROJECT_DIR$/wolf3d" />
+            <option value="$PROJECT_DIR$/../TouchControls/touchcontrols" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,5 @@
+Thank you for buying Quake 2 Touch.
+Please consider leaving a comment on Google Play if you like this app, it really motivates development :)
+
+This port uses GPL code from quake2android.
+Thank you to all who have contributed to those projects.

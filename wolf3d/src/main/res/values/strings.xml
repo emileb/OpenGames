@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <!-- Simple strings. -->
+    <string name="quake_activity">ECWolf</string>
+    
+    <string name="title_activity_entry">ECWolf</string>
+   
+ 
+</resources>

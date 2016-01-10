@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OpenGames.iml" filepath="$PROJECT_DIR$/OpenGames.iml" />
+      <module fileurl="file://$PROJECT_DIR$/abuse/abuse.iml" filepath="$PROJECT_DIR$/abuse/abuse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blakestone/blakestone.iml" filepath="$PROJECT_DIR$/blakestone/blakestone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doom/doom.iml" filepath="$PROJECT_DIR$/doom/doom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jk2/jk2.iml" filepath="$PROJECT_DIR$/jk2/jk2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jk3/jk3.iml" filepath="$PROJECT_DIR$/jk3/jk3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opengames/opengames.iml" filepath="$PROJECT_DIR$/opengames/opengames.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quake/quake.iml" filepath="$PROJECT_DIR$/quake/quake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quake2/quake2.iml" filepath="$PROJECT_DIR$/quake2/quake2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rtcw/rtcw.iml" filepath="$PROJECT_DIR$/rtcw/rtcw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testplatform/testplatform.iml" filepath="$PROJECT_DIR$/testplatform/testplatform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TouchControls/touchcontrols/touchcontrols.iml" filepath="$PROJECT_DIR$/../TouchControls/touchcontrols/touchcontrols.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wolf3d/wolf3d.iml" filepath="$PROJECT_DIR$/wolf3d/wolf3d.iml" />
+    </modules>
+  </component>
+</project>

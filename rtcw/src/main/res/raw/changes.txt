@@ -1,0 +1,50 @@
+v2.1
+*Amazon release
+----
+v2.0
+*Updated touch screen graphics
+*Bug fix
+----
+v1.5
+*Select SDCard for Beloko path on KitKat (WARNING, Android deletes this data on app uninstall!)
+*Hold down reload for sniper mode on gamepads now works
+*Fix for those with Lucky Patcher
+----
+v1.4.1
+*Added Kick, Lean Left and Lean Right to gamepad
+*Removed unused OpenSSL lib, requirement by Google
+----
+v1.4
+*Added Immersion Mode for KitKat (see Options to enable)
+*Bug fix for some devices which stopped the game starting at all
+*Removed audio locks ups
+---
+v1.3
+*Download HD Texture Pack
+*Fix dll loading for some devices
+*Added Social tab
+----
+v1.2.2
+*Download update if required.
+----
+v1.2.1
+*Fixed hiding settings button (cog) with gamepad
+*Fixed startup crash for some people
+----
+v1.2
+*Now also move touch controls for inventory,weapon wheel,numbers
+*Crouch now toggles
+*Added 'Use' to double tap actions
+*Added Quick save/load to Gamepad options
+*Stop sound playing when minimising game
+*Can select EGL mode, can help with graphic issues
+----
+v1.1.1
+*Secure download of demo data enabled
+----
+v1.1
+*Added kick button
+*Hide red hit box
+*Download update if needed (sp_pak4.pak)
+----
+v1.0 Initial Released

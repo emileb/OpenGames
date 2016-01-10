@@ -1,0 +1,5 @@
+Thank you for downloading Wolfenstein 3D Touch.
+
+Please consider leaving a comment on Google Play if you like this app, it really motivates development :)
+
+This port uses code the the excellent ECWolf

@@ -1,0 +1,24 @@
+SmallFont
+{
+	Template "STCFN%.3d"
+}
+
+IntermissionFont
+{
+	Template "FONTL%03d"
+	SpaceWidth 16
+}
+
+BonusFont
+{
+	Template "FONTY%03d"
+	SpaceWidth 16
+}
+
+HudFont
+{
+	Template "FONTN%03d"
+	First 32
+	Base 32
+	SpaceWidth 8
+}

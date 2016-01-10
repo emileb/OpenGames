@@ -1,0 +1,41 @@
+Name of Mod : CRBot, for Quake II
+              Source code 
+File Name   : crbot_ctf.zip
+Version     : 1.0
+Date        : March 26, 2000
+Author      : Mike Malakhov
+E-mail      : ww@pobox.com
+Web Site    : http://crbot.nikto.net
+Coding time : about 250 hours total, excluding testing
+
+CREDITS:
+--------
+Quake2, source code for .dll -- ID Software, http://www.idsoftware.com/
+VWep, Viewable Weapons Patch -- Hentai, http://www.telefragged.com/tsunami/
+
+
+FORMAT
+------
+It was compiled using Visual C++ v5.0. 
+
+
+COMMENTS
+--------
+ This is the final source code for latest version of CRbot! Including CTF
+and full teamplay support. Enjoy.
+ This package includes not only the source code for CRbot, but all related 
+files from original ID Software source code distribution as well. I changed 
+some of them and don't exactly remember which ones, sorry you'll have to figure\
+it out yourself too. :)
+ This source code provided AS IS, with no warranty of any kind, blah blah 
+blah. Feel free to do whatever you want with it, there is only one condition:
+I don't provide any kind of support, I don't answer questions and I don't 
+tutor on how to create mods for Quake2. Otherwise I would be glad to
+hear about any further modifications you'll do to it. And of course it is 
+covered by original ID Software license, which you can find in the file named
+LICENSE.TXT. 
+ And one last thing: if you'll decide to use CRbot's source code in your own 
+mod, don't forget to give me some credit, ok? Or, you know, your karma might 
+suffer. :) Or at least send me your site's URL, so I can link to it from 
+CRbot's main page.
+
